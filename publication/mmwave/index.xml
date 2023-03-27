@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chenhan Xu (许陈汉)</title>
+    <link>https://www.acsu.buffalo.edu/~chenhanx/publication/mmwave/</link>
+    <description>Recent content on Chenhan Xu (许陈汉)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.acsu.buffalo.edu/~chenhanx/publication/mmwave/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.acsu.buffalo.edu/~chenhanx/publication/mmwave/cardiacwave/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.acsu.buffalo.edu/~chenhanx/publication/mmwave/cardiacwave/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Huining Li, Zhengxiong Li, Hanbin Zhang, Aditya Singh Rathore, Xingyu Chen, Kun Wang, Ming-chun Huang, Wenyao Xu, &amp;ldquo;CardiacWave: A mmWave-based Scheme of Non-Contact and High-Definition Heart Activity Computing&amp;rdquo;, &lt;em&gt;Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies&lt;/em&gt; (&lt;strong&gt;UbiComp &amp;lsquo;21&lt;/strong&gt;), Virtual Conference, Sept 2021.  &lt;a href=&#34;https://www.acsu.buffalo.edu/~chenhanx/papers/3478127.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>&lt;p&gt;Huining Li, &lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Aditya Singh Rathore, Zhengxiong Li, Hanbin Zhang, Chen Song, Kun Wang, Lu Su, Feng Lin, Kui Ren, Wenyao Xu, &amp;ldquo;VocalPrint: A mmWave-based Unmediated Vocal Sensing System for Secure Authentication&amp;rdquo;, &lt;em&gt;IEEE Transactions on Mobile Computing&lt;/em&gt;, May 2021, Early Access. &lt;a href=&#34;https://www.acsu.buffalo.edu/~chenhanx/papers/VocalPrint_A_mmWave-based_Unmediated_Vocal_Sensing_System_for_Secure_Authentication.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.acsu.buffalo.edu/~chenhanx/publication/mmwave/vocalprint/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.acsu.buffalo.edu/~chenhanx/publication/mmwave/vocalprint/</guid>
+      <description>&lt;p&gt;Huining Li, &lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Aditya Singh Rathore, Zhengxiong Li, Hanbin Zhang, Chen Song, Kun Wang, Lu Su, Feng Lin, Kui Ren, Wenyao Xu, &amp;ldquo;VocalPrint: exploring a resilient and secure voice authentication via mmWave biometric interrogation&amp;rdquo;, &lt;em&gt;Proceedings of the 18th Conference on Embedded Networked Sensor Systems&lt;/em&gt; (&lt;strong&gt;SenSys &amp;lsquo;20&lt;/strong&gt;), Yokohama, Japan, November 2020. &lt;a href=&#34;https://www.acsu.buffalo.edu/~chenhanx/papers/vocalprint.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.acsu.buffalo.edu/~chenhanx/publication/mmwave/waveear/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.acsu.buffalo.edu/~chenhanx/publication/mmwave/waveear/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Zhengxiong Li, Hanbin Zhang, Aditya Singh Rathore, Huining Li, Chen Song, Kun Wang, Wenyao Xu, &amp;ldquo;WaveEar: Exploring a MmWave-Based Noise-Resistant Speech Sensing for Voice-User Interface&amp;rdquo;, &lt;em&gt;Proceedings of the 17th Annual International Conference on Mobile Systems, Applications, and Services&lt;/em&gt; (&lt;strong&gt;MobiSys &amp;lsquo;19&lt;/strong&gt;), Seoul, Republic of Korea, June 2019.  &lt;a href=&#34;https://www.acsu.buffalo.edu/~chenhanx/papers/waveear2019.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
