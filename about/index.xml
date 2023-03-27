@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Chenhan Xu (许陈汉)</title>
-    <link>https://www.acsu.buffalo.edu/~chenhanx/about/</link>
+    <link>https://chenhanxu.github.io/about/</link>
     <description>Recent content in About on Chenhan Xu (许陈汉)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://www.acsu.buffalo.edu/~chenhanx/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://chenhanxu.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link></link>

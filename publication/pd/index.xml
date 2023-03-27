@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chenhan Xu (许陈汉)</title>
-    <link>https://www.acsu.buffalo.edu/~chenhanx/publication/pd/</link>
+    <link>https://chenhanxu.github.io/publication/pd/</link>
     <description>Recent content on Chenhan Xu (许陈汉)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.acsu.buffalo.edu/~chenhanx/publication/pd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://chenhanxu.github.io/publication/pd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://www.acsu.buffalo.edu/~chenhanx/publication/pd/pdlens/</link>
+      <link>https://chenhanxu.github.io/publication/pd/pdlens/</link>
       <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.acsu.buffalo.edu/~chenhanx/publication/pd/pdlens/</guid>
-      <description>&lt;p&gt;Hanbin Zhang, Gabriel Guo, Chen Song, &lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Kevin Cheung, Jasleen Alexis, Huining Li, Dongmei Li, Kun Wang, Wenyao Xu, &amp;ldquo;PDLens: smartphone knows drug effectiveness among Parkinson&amp;rsquo;s via daily-life activity fusion&amp;rdquo;, &lt;em&gt;Proceedings of the 26th Annual International Conference on Mobile Computing and Networking&lt;/em&gt; (&lt;strong&gt;MobiCom&#39;20&lt;/strong&gt;), London, United Kingdom, September 2020.  &lt;a href=&#34;https://www.acsu.buffalo.edu/~chenhanx/papers/pdlens.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://chenhanxu.github.io/publication/pd/pdlens/</guid>
+      <description>&lt;p&gt;Hanbin Zhang, Gabriel Guo, Chen Song, &lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Kevin Cheung, Jasleen Alexis, Huining Li, Dongmei Li, Kun Wang, Wenyao Xu, &amp;ldquo;PDLens: smartphone knows drug effectiveness among Parkinson&amp;rsquo;s via daily-life activity fusion&amp;rdquo;, &lt;em&gt;Proceedings of the 26th Annual International Conference on Mobile Computing and Networking&lt;/em&gt; (&lt;strong&gt;MobiCom&#39;20&lt;/strong&gt;), London, United Kingdom, September 2020.  &lt;a href=&#34;https://chenhanxu.github.io/papers/pdlens.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.acsu.buffalo.edu/~chenhanx/publication/pd/pdmove/</link>
+      <link>https://chenhanxu.github.io/publication/pd/pdmove/</link>
       <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.acsu.buffalo.edu/~chenhanx/publication/pd/pdmove/</guid>
-      <description>&lt;p&gt;Hanbin Zhang, &lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Huining Li, Aditya Singh Rathore, Chen Song, Zhisheng Yan, Dongmei Li, Feng Lin, Kun Wang, Wenyao Xu, &amp;ldquo;PDMove: Towards Passive Medication Adherence Monitoring of Parkinson&amp;rsquo;s Disease Using Smartphone-based Gait Assessment&amp;rdquo;, &lt;em&gt;Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies&lt;/em&gt; (&lt;strong&gt;UbiComp’19&lt;/strong&gt;), London, United Kingdom, September 2019. &lt;a href=&#34;https://www.acsu.buffalo.edu/~chenhanx/papers/pdmove.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://chenhanxu.github.io/publication/pd/pdmove/</guid>
+      <description>&lt;p&gt;Hanbin Zhang, &lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Huining Li, Aditya Singh Rathore, Chen Song, Zhisheng Yan, Dongmei Li, Feng Lin, Kun Wang, Wenyao Xu, &amp;ldquo;PDMove: Towards Passive Medication Adherence Monitoring of Parkinson&amp;rsquo;s Disease Using Smartphone-based Gait Assessment&amp;rdquo;, &lt;em&gt;Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies&lt;/em&gt; (&lt;strong&gt;UbiComp’19&lt;/strong&gt;), London, United Kingdom, September 2019. &lt;a href=&#34;https://chenhanxu.github.io/papers/pdmove.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.acsu.buffalo.edu/~chenhanx/publication/pd/pdvocal/</link>
+      <link>https://chenhanxu.github.io/publication/pd/pdvocal/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.acsu.buffalo.edu/~chenhanx/publication/pd/pdvocal/</guid>
-      <description>&lt;p&gt;Hanbin Zhang, Chen Song, Aosen Wang, &lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Dongmei Li, Wenyao Xu, &amp;ldquo;PDVocal: Towards Privacy-preserving Parkinson&amp;rsquo;s Disease Detection using Non-speech Body Sounds&amp;rdquo;, &lt;em&gt;The 25th Annual International Conference on Mobile Computing and Networking&lt;/em&gt; (&lt;strong&gt;MobiCom’19&lt;/strong&gt;), New York, New York, United States, August 2019. &lt;a href=&#34;https://www.acsu.buffalo.edu/~chenhanx/papers/pdvocal.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://chenhanxu.github.io/publication/pd/pdvocal/</guid>
+      <description>&lt;p&gt;Hanbin Zhang, Chen Song, Aosen Wang, &lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Dongmei Li, Wenyao Xu, &amp;ldquo;PDVocal: Towards Privacy-preserving Parkinson&amp;rsquo;s Disease Detection using Non-speech Body Sounds&amp;rdquo;, &lt;em&gt;The 25th Annual International Conference on Mobile Computing and Networking&lt;/em&gt; (&lt;strong&gt;MobiCom’19&lt;/strong&gt;), New York, New York, United States, August 2019. &lt;a href=&#34;https://chenhanxu.github.io/papers/pdvocal.pdf&#34;&gt;[PDF]&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
