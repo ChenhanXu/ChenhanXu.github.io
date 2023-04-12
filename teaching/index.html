@@ -27,7 +27,7 @@
 
 <style>
   .topnav {
-  background-color: rgb(255, 255, 255);
+  background-color: #243454;
   position: fixed;  
   top: 0;  
   width: 100%;  
@@ -42,7 +42,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -51,7 +51,7 @@
 
  
 .topnav a:hover {
-  background-color: rgb(0, 0, 0);
+  background-color: #ffcc00;
   color: rgb(255, 255, 255);
 }
 
@@ -89,21 +89,29 @@
   }
 }
 
-.Award {
+  #Award {
     color: green;
     font-weight: bold;
   }
-  .Publication {
+  #Publication {
     color: red;
     font-weight: bold;
   }
-  .Event {
+  #Event {
     color: blue;
     font-weight: bold;
   }
-  .Activity {
+  #Activity {
     color: indigo;
     font-weight: bold;
+  }
+
+  a {
+    color: #243454;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: #ffcc00;
   }
 </style>
   <style>
@@ -156,8 +164,6 @@
   <a class="item" href="/publication/">Publication</a>
   
   <a class="item" href="/teaching/">Teaching</a>
-  
-  <a class="item" href="/about/">About</a>
   
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>

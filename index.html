@@ -27,7 +27,7 @@
 
 <style>
   .topnav {
-  background-color: rgb(255, 255, 255);
+  background-color: #243454;
   position: fixed;  
   top: 0;  
   width: 100%;  
@@ -42,7 +42,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -51,7 +51,7 @@
 
  
 .topnav a:hover {
-  background-color: rgb(0, 0, 0);
+  background-color: #ffcc00;
   color: rgb(255, 255, 255);
 }
 
@@ -89,21 +89,29 @@
   }
 }
 
-.Award {
+  #Award {
     color: green;
     font-weight: bold;
   }
-  .Publication {
+  #Publication {
     color: red;
     font-weight: bold;
   }
-  .Event {
+  #Event {
     color: blue;
     font-weight: bold;
   }
-  .Activity {
+  #Activity {
     color: indigo;
     font-weight: bold;
+  }
+
+  a {
+    color: #243454;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: #ffcc00;
   }
 </style>
   <style>
@@ -137,8 +145,6 @@
   <a class="item" href="/publication/">Publication</a>
   
   <a class="item" href="/teaching/">Teaching</a>
-  
-  <a class="item" href="/about/">About</a>
   
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
@@ -230,35 +236,59 @@ function myFunction() {
   <div class="ui center aligned stackable grid container" style="padding-top: 1em;padding-bottom: 1em;">
     <div class="ui list" style="padding-left: 0; padding-right: 0;">
       
-      <div class="item list-item">            <span class="Publication">[Publication]</span> <p>Our paper &ldquo;AO-Finger: Hands-free Fine-grained Finger Gesture Recognition via Acoustic-Optic Sensor Fusing&rdquo; at <a href="https://research.snap.com/">Snap Research NYC</a> is accepted by CHI &lsquo;23.</p>
- (2023/03)</div>
+      <div class="item list-item">
+        
+        <div class="ui horizontal label" id="Publication">Publication</div> <p>Our paper &ldquo;AO-Finger: Hands-free Fine-grained Finger Gesture Recognition via Acoustic-Optic Sensor Fusing&rdquo; at <a href="https://research.snap.com/">Snap Research NYC</a> is accepted by CHI &lsquo;23.</p>
+ (2023/03)
+      </div>
       
-      <div class="item list-item">            <span class="Award">[Award]</span> <p>Our work “Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function” is selected as the best paper candidate for SenSys'22 (7 out of 208). Thanks to all my collaborators.</p>
- (2022/11)</div>
+      <div class="item list-item">
+        
+        <div class="ui horizontal label" id="Award">Award</div> <p>Our work “Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function” is selected as the best paper candidate for SenSys'22 (7 out of 208). Thanks to all my collaborators.</p>
+ (2022/11)
+      </div>
       
-      <div class="item list-item">            <span class="Award">[Award]</span> <p>Our work &ldquo;Poster Abstract: Smartphone-based Blood Perfusion Assessment for Ulcer Care&rdquo; wins the SenSys'22 best poster runner-up. Thanks to all my collaborators.</p>
- (2022/11)</div>
+      <div class="item list-item">
+        
+        <div class="ui horizontal label" id="Award">Award</div> <p>Our work &ldquo;Poster Abstract: Smartphone-based Blood Perfusion Assessment for Ulcer Care&rdquo; wins the SenSys'22 best poster runner-up. Thanks to all my collaborators.</p>
+ (2022/11)
+      </div>
       
-      <div class="item list-item">            <span class="Publication">[Publication]</span> <p>Our paper &ldquo;Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function&rdquo; is accepted by SenSys &lsquo;22.</p>
- (2022/10)</div>
+      <div class="item list-item">
+        
+        <div class="ui horizontal label" id="Publication">Publication</div> <p>Our paper &ldquo;Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function&rdquo; is accepted by SenSys &lsquo;22.</p>
+ (2022/10)
+      </div>
       
-      <div class="item list-item">            <span class="Activity">[Activity]</span> <p>Chenhan served as Shadow Program Committee of SenSys'22.</p>
- (2022/08)</div>
+      <div class="item list-item">
+        
+        <div class="ui horizontal label" id="Activity">Activity</div> <p>Chenhan served as Shadow Program Committee of SenSys'22.</p>
+ (2022/08)
+      </div>
       
-      <div class="item list-item">            <span class="Activity">[Activity]</span> <p>Chenhan will be joining <a href="https://research.snap.com/">Snap Research NYC</a> in the summer of 2022 as a Research Intern on HCI research.</p>
- (2022/04)</div>
+      <div class="item list-item">
+        
+        <div class="ui horizontal label" id="Activity">Activity</div> <p>Chenhan will be joining <a href="https://research.snap.com/">Snap Research NYC</a> in the summer of 2022 as a Research Intern on HCI research.</p>
+ (2022/04)
+      </div>
       
-      <div class="item list-item">            <span class="Publication">[Publication]</span> <p>Our paper &ldquo;CardiacWave: A mmWave-based Scheme of Non-Contact and High-Definition Heart Activity Computing&rdquo; is accepted by UbiComp &lsquo;21</p>
- (2021/07)</div>
+      <div class="item list-item">
+        
+        <div class="ui horizontal label" id="Publication">Publication</div> <p>Our paper &ldquo;CardiacWave: A mmWave-based Scheme of Non-Contact and High-Definition Heart Activity Computing&rdquo; is accepted by UbiComp &lsquo;21</p>
+ (2021/07)
+      </div>
       
-      <div class="item list-item">            <span class="Event">[Event]</span> <p>Chenhan passed Ph.D. qualifying exam</p>
- (2021/02)</div>
+      <div class="item list-item">
+        
+        <div class="ui horizontal label" id="Event">Event</div> <p>Chenhan passed Ph.D. qualifying exam</p>
+ (2021/02)
+      </div>
       
     </div>
 
   <div class="ui">
     <a  href='/news/'>
-      <div class="ui medium animated primary button" tabindex="0">
+      <div class="ui medium animated black button" tabindex="0">
         <div class="visible content">More News</div>
         <div class="hidden content">
           <i class="right arrow icon"></i>
@@ -349,7 +379,7 @@ Zhengxiong Li, Wenyao Xu, &ldquo;Hearing Heartbeat from Voice: Towards Next Gene
 
   <div class="ui">
     <a  href='/publication/'>
-      <div class="ui medium animated primary button" tabindex="0">
+      <div class="ui medium animated black button" tabindex="0">
         <div class="visible content">All Publications</div>
         <div class="hidden content">
           <i class="book open icon"></i>
