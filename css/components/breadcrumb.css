@@ -44,10 +44,10 @@
 
 /* Link */
 .ui.breadcrumb a {
-  color: #4183c4;
+  color: #cc0000;
 }
 .ui.breadcrumb a:hover {
-  color: #1e70bf;
+  color: #ad0000;
 }
 
 /* Icon Divider */

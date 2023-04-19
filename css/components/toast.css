@@ -154,10 +154,10 @@
   background: #cf9b0d;
 }
 .ui.toast-container .toast-box > .attached.progress.success .bar.bar.bar {
-  background: #15792d;
+  background: #383f0e;
 }
 .ui.toast-container .toast-box > .attached.progress.error .bar.bar.bar {
-  background: #9c1a1a;
+  background: #800000;
 }
 .ui.toast-container .toast-box > .attached.progress.neutral .bar.bar.bar {
   background: #d9d9d9;
@@ -408,11 +408,11 @@
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.toast.success {
-  background-color: #21ba45;
+  background-color: #6F7D1C;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.toast.error {
-  background-color: #db2828;
+  background-color: #cc0000;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.toast.neutral {
@@ -556,12 +556,12 @@
      Colors
 -------------- */
 .ui.primary.toast {
-  background-color: #2185d0;
+  background-color: #cc0000;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.primary.toast,
 .ui.toast-container .toast-box > .inverted.primary.attached.progress .bar {
-  background-color: #54c8ff;
+  background-color: #ff695e;
   color: rgba(0, 0, 0, 0.87);
 }
 .ui.secondary.toast {
@@ -574,7 +574,7 @@
   color: rgba(0, 0, 0, 0.87);
 }
 .ui.red.toast {
-  background-color: #db2828;
+  background-color: #cc0000;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.red.toast,
@@ -583,7 +583,7 @@
   color: rgba(0, 0, 0, 0.87);
 }
 .ui.orange.toast {
-  background-color: #f2711c;
+  background-color: #D14905;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.orange.toast,
@@ -592,7 +592,7 @@
   color: rgba(0, 0, 0, 0.87);
 }
 .ui.yellow.toast {
-  background-color: #fbbd08;
+  background-color: #FAC800;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.yellow.toast,
@@ -610,7 +610,7 @@
   color: rgba(0, 0, 0, 0.87);
 }
 .ui.green.toast {
-  background-color: #21ba45;
+  background-color: #6F7D1C;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.green.toast,
@@ -628,7 +628,7 @@
   color: rgba(0, 0, 0, 0.87);
 }
 .ui.blue.toast {
-  background-color: #2185d0;
+  background-color: #427E93;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.inverted.blue.toast,

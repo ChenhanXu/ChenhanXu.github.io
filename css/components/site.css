@@ -171,11 +171,11 @@ p:last-child {
         Links
 -------------------- */
 a {
-  color: #4183c4;
+  color: #cc0000;
   text-decoration: none;
 }
 a:hover {
-  color: #1e70bf;
+  color: #ad0000;
   text-decoration: none;
 }
 

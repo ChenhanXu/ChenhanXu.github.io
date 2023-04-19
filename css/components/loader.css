@@ -275,7 +275,7 @@
 .ui.primary.loading.loading.loading.loading .input > i.icon::after,
 .ui.primary.loading.loading.loading.loading > i.icon::after,
 .ui.primary.loader.loader.loader::after {
-  color: #2185d0;
+  color: #cc0000;
 }
 .ui.inverted.primary.elastic.loader::before,
 .ui.inverted.primary.elastic.loading.loading.loading:not(.segment):not(.segments):not(.card)::before,
@@ -285,7 +285,7 @@
 .ui.inverted.primary.loading.loading.loading.loading .input > i.icon::after,
 .ui.inverted.primary.loading.loading.loading.loading > i.icon::after,
 .ui.inverted.primary.loader.loader.loader::after {
-  color: #54c8ff;
+  color: #ff695e;
 }
 .ui.secondary.elastic.loader.loader::before,
 .ui.secondary.basic.elastic.loading.button::before,
@@ -319,7 +319,7 @@
 .ui.red.loading.loading.loading.loading .input > i.icon::after,
 .ui.red.loading.loading.loading.loading > i.icon::after,
 .ui.red.loader.loader.loader::after {
-  color: #db2828;
+  color: #cc0000;
 }
 .ui.inverted.red.elastic.loader::before,
 .ui.inverted.red.elastic.loading.loading.loading:not(.segment):not(.segments):not(.card)::before,
@@ -341,7 +341,7 @@
 .ui.orange.loading.loading.loading.loading .input > i.icon::after,
 .ui.orange.loading.loading.loading.loading > i.icon::after,
 .ui.orange.loader.loader.loader::after {
-  color: #f2711c;
+  color: #D14905;
 }
 .ui.inverted.orange.elastic.loader::before,
 .ui.inverted.orange.elastic.loading.loading.loading:not(.segment):not(.segments):not(.card)::before,
@@ -363,7 +363,7 @@
 .ui.yellow.loading.loading.loading.loading .input > i.icon::after,
 .ui.yellow.loading.loading.loading.loading > i.icon::after,
 .ui.yellow.loader.loader.loader::after {
-  color: #fbbd08;
+  color: #FAC800;
 }
 .ui.inverted.yellow.elastic.loader::before,
 .ui.inverted.yellow.elastic.loading.loading.loading:not(.segment):not(.segments):not(.card)::before,
@@ -407,7 +407,7 @@
 .ui.green.loading.loading.loading.loading .input > i.icon::after,
 .ui.green.loading.loading.loading.loading > i.icon::after,
 .ui.green.loader.loader.loader::after {
-  color: #21ba45;
+  color: #6F7D1C;
 }
 .ui.inverted.green.elastic.loader::before,
 .ui.inverted.green.elastic.loading.loading.loading:not(.segment):not(.segments):not(.card)::before,
@@ -451,7 +451,7 @@
 .ui.blue.loading.loading.loading.loading .input > i.icon::after,
 .ui.blue.loading.loading.loading.loading > i.icon::after,
 .ui.blue.loader.loader.loader::after {
-  color: #2185d0;
+  color: #427E93;
 }
 .ui.inverted.blue.elastic.loader::before,
 .ui.inverted.blue.elastic.loading.loading.loading:not(.segment):not(.segments):not(.card)::before,

@@ -27,7 +27,7 @@
 
 <style>
   .topnav {
-  background-color: #243454;
+  background-color: #990000;
   position: fixed;  
   top: 0;  
   width: 100%;  
@@ -51,8 +51,8 @@
 
  
 .topnav a:hover {
-  background-color: #ffcc00;
-  color: rgb(255, 255, 255);
+  background-color: #ffffff;
+  color: #990000;
 }
 
  
@@ -109,12 +109,8 @@
     font-weight: bold;
   }
 
-  a {
-    color: #243454;
-    text-decoration: underline;
-  }
-  a:hover {
-    color: #ffcc00;
+  .ui .container {
+    margin-bottom: 20px;
   }
 </style>
   <style>
@@ -143,12 +139,15 @@
   <div class="ui centered container">
   <a href="/">Home</a>
   
-  <a class="item" href="/news/">News</a>
-  
-  <a class="item" href="/publication/">Publication</a>
-  
-  <a class="item" href="/teaching/">Teaching</a>
-  
+  <a class="item" href="/news/">
+    News
+  </a>
+  <a class="item" href="/publication/">
+    Publication
+  </a>
+  <a class="item" href="/teaching/">
+    Teaching
+  </a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="bars icon"></i>
   </a>
@@ -174,16 +173,14 @@ function myFunction() {
   
 
 
-<div class="ui centered container">
+<div class="ui container">
   <div class="ui vertical segment">
     <div class="ui middle aligned stackable grid container">
       <div class="row">
-        <div class="eight wide column">
-          <img class="ui medium rounded centered image" src="images/profile1.jpg" alt="Chenhan Xu">
-        </div>
-        <div class="eight wide centered column">
+        
+        <div class="fourteen wide centered column">
           <div class="ui items">
-            <div class="item">
+            <div class="item"><img class="ui medium rounded centered image" src="images/profile1.jpg" alt="Chenhan Xu">
               <div class="content">
                 <div class="header">Chenhan Xu</div>
                 <div class="meta">
@@ -191,10 +188,10 @@ function myFunction() {
                 </div>
                 <div class="description">
                   <p>Department of Computer Science &amp; Engineering, University at Buffalo</p>
-                  <p><i class="map icon"></i> 340 Davis Hall, Buffalo, NY 14260</p>
-                  <p><i class="envelope icon"></i> chenhanx (AT) buffalo (DOT) edu</p>
-                  <a href="https://chenhanxu.github.io/cv/CV_Chenhan.pdf" class="fs-6">[CV]</a>
-                  <a href="https://scholar.google.com/citations?user=KnwMxZ8AAAAJ&hl=en">[Google Scholar]</a>
+                  <p><i class="map primary icon"></i> 340 Davis Hall, Buffalo, NY 14260</p>
+                  <p><i class="envelope primary icon"></i> chenhanx (AT) buffalo (DOT) edu</p>
+                  <a class="ui red basic medium label" href="https://chenhanxu.github.io/cv/Chenhan_CV.pdf"><i class="file outline icon"></i>CV</a>
+                  <a class="ui red basic label" href="https://scholar.google.com/citations?user=KnwMxZ8AAAAJ&hl=en"><i class="graduation cap icon"></i>Google Scholar</a>
                 </div>
                 <div class="extra">
                     <blockquote>「君子不器」    — Confucius (551 BC - 479 BC)</blockquote>
@@ -211,20 +208,125 @@ function myFunction() {
   <div class="ui vertical segment">
     <div style="text-align:justify;">
       
+      <p>
 
-<code> 
-  <span style="
-      color: blue;
-      ">
-      I am on the academic job market this year.
-  </span>
-</code>
+
+
+
+
+<div class="ui info yellow message">
+    <div class="header">
+      Openings
+    </div>
+    <p>
+      
+I am actively looking for self-motivated Ph.D. students/interns to work on Wireless and Mobile Sensing. Feel free to send me an email with your CV.
+
+    </p>
+</div>
+
+
+
+
+
+
+<div class="ui info yellow message">
+    <div class="header">
+      
+    </div>
+    <p>
+      
+I will be joining the <a href="https://www.csc.ncsu.edu/index.php">Department of Computer Science at the North Carolina State University (NCState)</a> as an Assistant Professor in Fall 2023.
+
+    </p>
+</div></p>
 <p>I&rsquo;m currently a Ph.D. Candidate in the <a href="https://engineering.buffalo.edu/computer-science-engineering.html">Department of Computer Science &amp; Engineering, University at Buffalo</a> working under the guidance of <a href="https://cse.buffalo.edu/~wenyaoxu/">Prof. Wenyao Xu</a> at the Embedded Sensing and Computing (ESC) Lab. Before that, I worked as an intern for blockchain researches in NUPT Center for Learning, Energy and Networks (NCLEN) for three years. I earned my B. Eng. degree in Network Engineering from NUPT.</p>
 <p>My research interests fall on the intersection of <strong>Internet of Things</strong>, <strong>Cybersecurity</strong>, <strong>Physiological Science</strong>, and <strong>Smart Health</strong>. As a <em>computer system researcher</em>, I <em>model, design, build, and evaluate end-to-end sensing and computing systems that aim for precise, broad-spectrum, intelligent, and secure human-computer interaction (HCI) and personalized healthcare within IoT context</em>. My research ranges from theory to implementation, and has primarily focused on three aspects:</p>
 <ul>
-<li><strong>Secure Precision Sensing in IoT</strong>: exploring new sensing technologies (mainly wireless) to precisely, securely, and robustly interrogate human physiological information, including noise-immune voice tone <a href="https://chenhanxu.github.io/publication/mmwave/waveear/">[MobiSys’19]</a> and resilient voice biometrics <a href="https://chenhanxu.github.io/publication/mmwave/vocalprint/">[SenSys’20]</a>, fine-grained heart activities <a href="https://chenhanxu.github.io/publication/mmwave/cardiacwave/">[UbiComp’21]</a>, anti-spoofing fingerprint [[NDSS’22]], and authentic body inertia <a href="https://chenhanxu.github.io/publication/visualacc/">[ICHI’22]</a>.</li>
-<li><strong>Novel Human-IoT Interface</strong>: investigating new interfaces between human and IoT through broad-spectrum wireless modalities of human physiological activities (e.g., IoT-heart interface via voice <a href="https://chenhanxu.github.io/publication/vocalhr/">[SenSys’22]</a> and mmWave <a href="https://chenhanxu.github.io/publication/mmwave/cardiacwave/">[UbiComp’21]</a>).</li>
-<li><strong>Pervasive and Privary-preserving Healthcare</strong>: exploring effortless, accurate, and secure health monitoring and disease prevention through IoT devices and facilities, including passive medication adherence management of Parkinson&rsquo;s disease (PD) <a href="https://chenhanxu.github.io/publication/pd/pdmove/">[UbiComp'19]</a> and privacy-preserving early detection of PD <a href="https://chenhanxu.github.io/publication/pd/pdvocal/">[MobiCom’19]</a>.</li>
+<li><strong>Secure Precision Sensing in IoT</strong>: exploring new sensing technologies (mainly wireless) to precisely, securely, and robustly interrogate human physiological information, including noise-immune voice tone 
+
+
+
+
+
+
+
+<a href="/publication/mobisys_19/paper.pdf">[MobiSys'19]</a>
+ and resilient voice biometrics 
+
+
+
+
+
+
+
+<a href="/publication/sensys_20b/paper.pdf">[SenSys'20]</a>
+, fine-grained heart activities 
+
+
+
+
+
+
+
+<a href="/publication/ubicomp_21/paper.pdf">[UbiComp'21]</a>
+, anti-spoofing fingerprint 
+
+
+
+
+
+
+
+<a href="/publication/ndss_22b/paper.pdf">[NDSS’22]</a>
+, and authentic body inertia 
+
+
+
+
+
+
+
+<a href="/publication/ichi_22/paper.pdf">[ICHI’22]</a>
+.</li>
+<li><strong>Novel Human-IoT Interface</strong>: investigating new interfaces between human and IoT through broad-spectrum wireless modalities of human physiological activities (e.g., IoT-heart interface via voice 
+
+
+
+
+
+
+
+<a href="/publication/sensys_22a/paper.pdf">[SenSys'22]</a>
+ and mmWave 
+
+
+
+
+
+
+
+<a href="/publication/ubicomp_21/paper.pdf">[UbiComp'21]</a>
+).</li>
+<li><strong>Pervasive and Privary-preserving Healthcare</strong>: exploring effortless, accurate, and secure health monitoring and disease prevention through IoT devices and facilities, including passive medication adherence management of Parkinson&rsquo;s disease (PD) 
+
+
+
+
+
+
+
+<a href="/publication/ubicomp_19/paper.pdf">[UbiComp'19]</a>
+ and privacy-preserving early detection of PD 
+
+
+
+
+
+
+
+<a href="/publication/mobicom_19/paper.pdf">[MobiCom'19]</a>
+.</li>
 </ul>
 
     </div>
@@ -232,7 +334,7 @@ function myFunction() {
 
 </div>
 
-<div class="ui centered container">
+<div class="ui container">
   <div class="ui horizontal divider">
     News
   </div>
@@ -241,57 +343,57 @@ function myFunction() {
       
       <div class="item list-item">
         
-        <div class="ui horizontal label" id="Publication">Publication</div> <p>Our paper &ldquo;AO-Finger: Hands-free Fine-grained Finger Gesture Recognition via Acoustic-Optic Sensor Fusing&rdquo; at <a href="https://research.snap.com/">Snap Research NYC</a> is accepted by CHI &lsquo;23.</p>
- (2023/03)
+        <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>Our paper &ldquo;AO-Finger: Hands-free Fine-grained Finger Gesture Recognition via Acoustic-Optic Sensor Fusing&rdquo; at <a href="https://research.snap.com/">Snap Research NYC</a> is accepted by CHI &lsquo;23.</p>
+ (2023/03)</span>
       </div>
       
       <div class="item list-item">
         
-        <div class="ui horizontal label" id="Award">Award</div> <p>Our work “Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function” is selected as the best paper candidate for SenSys'22 (7 out of 208). Thanks to all my collaborators.</p>
- (2022/11)
+        <div class="ui horizontal right pointing large label" id="Award">Award</div> <span><p>Our work “Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function” is selected as the best paper candidate for SenSys'22 (7 out of 208). Thanks to all my collaborators.</p>
+ (2022/11)</span>
       </div>
       
       <div class="item list-item">
         
-        <div class="ui horizontal label" id="Award">Award</div> <p>Our work &ldquo;Poster Abstract: Smartphone-based Blood Perfusion Assessment for Ulcer Care&rdquo; wins the SenSys'22 best poster runner-up. Thanks to all my collaborators.</p>
- (2022/11)
+        <div class="ui horizontal right pointing large label" id="Award">Award</div> <span><p>Our work &ldquo;Poster Abstract: Smartphone-based Blood Perfusion Assessment for Ulcer Care&rdquo; wins the SenSys'22 best poster runner-up. Thanks to all my collaborators.</p>
+ (2022/11)</span>
       </div>
       
       <div class="item list-item">
         
-        <div class="ui horizontal label" id="Publication">Publication</div> <p>Our paper &ldquo;Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function&rdquo; is accepted by SenSys &lsquo;22.</p>
- (2022/10)
+        <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>Our paper &ldquo;Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function&rdquo; is accepted by SenSys &lsquo;22.</p>
+ (2022/10)</span>
       </div>
       
       <div class="item list-item">
         
-        <div class="ui horizontal label" id="Activity">Activity</div> <p>Chenhan served as Shadow Program Committee of SenSys'22.</p>
- (2022/08)
+        <div class="ui horizontal right pointing large label" id="Activity">Activity</div> <span><p>Chenhan served as Shadow Program Committee of SenSys'22.</p>
+ (2022/08)</span>
       </div>
       
       <div class="item list-item">
         
-        <div class="ui horizontal label" id="Activity">Activity</div> <p>Chenhan will be joining <a href="https://research.snap.com/">Snap Research NYC</a> in the summer of 2022 as a Research Intern on HCI research.</p>
- (2022/04)
+        <div class="ui horizontal right pointing large label" id="Activity">Activity</div> <span><p>Chenhan will be joining <a href="https://research.snap.com/">Snap Research NYC</a> in the summer of 2022 as a Research Intern on HCI research.</p>
+ (2022/04)</span>
       </div>
       
       <div class="item list-item">
         
-        <div class="ui horizontal label" id="Publication">Publication</div> <p>Our paper &ldquo;CardiacWave: A mmWave-based Scheme of Non-Contact and High-Definition Heart Activity Computing&rdquo; is accepted by UbiComp &lsquo;21</p>
- (2021/07)
+        <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>Our paper &ldquo;CardiacWave: A mmWave-based Scheme of Non-Contact and High-Definition Heart Activity Computing&rdquo; is accepted by UbiComp &lsquo;21</p>
+ (2021/07)</span>
       </div>
       
       <div class="item list-item">
         
-        <div class="ui horizontal label" id="Event">Event</div> <p>Chenhan passed Ph.D. qualifying exam</p>
- (2021/02)
+        <div class="ui horizontal right pointing large label" id="Event">Event</div> <span><p>Chenhan passed Ph.D. qualifying exam</p>
+ (2021/02)</span>
       </div>
       
     </div>
 
   <div class="ui">
     <a  href='/news/'>
-      <div class="ui medium animated black button" tabindex="0">
+      <div class="ui small animated primary button" tabindex="0">
         <div class="visible content">More News</div>
         <div class="hidden content">
           <i class="right arrow icon"></i>
@@ -304,7 +406,7 @@ function myFunction() {
 </div>
 
 
-<div class="ui centered container">
+<div class="ui container">
   <div class="ui horizontal divider">
     Selected Publications
   </div>
@@ -312,26 +414,14 @@ function myFunction() {
     <div class="ui list" style="padding-left: 0; padding-right: 0;">
       
       
-      <div class="item list-item"><p><strong>Chenhan Xu</strong>, Tianyu Chen, Huining Li, Alexander Gherardi, Michelle Weng,
-Zhengxiong Li, Wenyao Xu, &ldquo;Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function&rdquo;, <em>ACM Conference on Embedded Networked Sensor Systems</em> (<strong>SenSys &lsquo;22</strong>), Boston, MA, Nov. 2022. <a href="https://chenhanxu.github.io/papers/VocalHR_Sensys22.pdf">[PDF]</a></p></div>
-      
-      
-      
-      <div class="item list-item"><p><strong>Chenhan Xu</strong>, Huining Li, Zhengxiong Li, Xingyu Chen, Aditya Singh Rathore, Hanbin Zhang, Kun Wang, Wenyao Xu, &ldquo;The Visual Accelerometer: A High-fidelity Optic-to-Inertial Transformation Framework for Wearable Health Computing&rdquo;, <em>IEEE International Conference on Health Informatics</em> (<strong>ICHI &lsquo;22</strong>), Rochester, MN, June 2022. (Best Student Paper Award, 2 out of 109, 1.8%) <a href="https://chenhanxu.github.io/papers/visualacc2022.pdf">[PDF]</a></p></div>
-      
-      
-      
-      <div class="item list-item"><p><strong>Chenhan Xu</strong>, Huining Li, Zhengxiong Li, Hanbin Zhang, Aditya Singh Rathore, Xingyu Chen, Kun Wang, Ming-chun Huang, Wenyao Xu, &ldquo;CardiacWave: A mmWave-based Scheme of Non-Contact and High-Definition Heart Activity Computing&rdquo;, <em>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</em> (<strong>UbiComp &lsquo;21</strong>), Virtual Conference, Sept 2021.  <a href="https://chenhanxu.github.io/papers/3478127.pdf">[PDF]</a></p></div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <div class="item list-item"><p>Huining Li, <strong>Chenhan Xu</strong>, Aditya Singh Rathore, Zhengxiong Li, Hanbin Zhang, Chen Song, Kun Wang, Lu Su, Feng Lin, Kui Ren, Wenyao Xu, &ldquo;VocalPrint: exploring a resilient and secure voice authentication via mmWave biometric interrogation&rdquo;, <em>Proceedings of the 18th Conference on Embedded Networked Sensor Systems</em> (<strong>SenSys &lsquo;20</strong>), Yokohama, Japan, November 2020. <a href="https://chenhanxu.github.io/papers/vocalprint.pdf">[PDF]</a></p></div>
+      <div class="item list-item"><p><strong>Chenhan Xu</strong>, Bing Zhou, Gurunandan Krishnan, Shree Nayar, &ldquo;AO-Finger: Hands-free Fine-grained Finger Gesture Recognition via Acoustic-Optic Sensor Fusing&rdquo;, <em>Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems</em> (<strong>CHI'23</strong>), Hamburg, Germany, Apr. 2023. 
+
+
+
+
+
+<a class="ui red basic medium label" href="/publication/chi_23/paper.pdf">PDF</a>
+</p></div>
       
       
       
@@ -341,6 +431,41 @@ Zhengxiong Li, Wenyao Xu, &ldquo;Hearing Heartbeat from Voice: Towards Next Gene
       
       
       
+      <div class="item list-item"><p><strong>Chenhan Xu</strong>, 
+
+<span>
+
+<span><u>Tianyu Chen</u></span>*</span>, Huining Li, 
+
+<span>
+
+<span><u>Alexander Gherardi</u></span>*</span>, 
+
+<span>
+
+<span><u>Michelle Weng</u></span>*</span>, Zhengxiong Li, Wenyao Xu, &ldquo;Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function&rdquo;, <em>ACM Conference on Embedded Networked Sensor Systems</em> (<strong>SenSys'22</strong>), Boston, MA, Nov. 2022. 
+
+
+
+
+
+<a class="ui red basic medium label" href="/publication/sensys_22a/paper.pdf">PDF</a>
+</p></div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="item list-item"><p><strong>Chenhan Xu</strong>, Huining Li, Zhengxiong Li, Xingyu Chen, Aditya Singh Rathore, Hanbin Zhang, Kun Wang, Wenyao Xu, &ldquo;The Visual Accelerometer: A High-fidelity Optic-to-Inertial Transformation Framework for Wearable Health Computing&rdquo;, <em>IEEE International Conference on Health Informatics</em> (<strong>ICHI'22</strong>), Rochester, MN, June 2022. 
+
+
+
+
+
+<a class="ui red basic medium label" href="/publication/ichi_22/paper.pdf">PDF</a>
+</p></div>
       
       
       
@@ -353,13 +478,63 @@ Zhengxiong Li, Wenyao Xu, &ldquo;Hearing Heartbeat from Voice: Towards Next Gene
       
       
       
-      <div class="item list-item"><p><strong>Chenhan Xu</strong>, Zhengxiong Li, Hanbin Zhang, Aditya Singh Rathore, Huining Li, Chen Song, Kun Wang, Wenyao Xu, &ldquo;WaveEar: Exploring a MmWave-Based Noise-Resistant Speech Sensing for Voice-User Interface&rdquo;, <em>Proceedings of the 17th Annual International Conference on Mobile Systems, Applications, and Services</em> (<strong>MobiSys &lsquo;19</strong>), Seoul, Republic of Korea, June 2019.  <a href="https://chenhanxu.github.io/papers/waveear2019.pdf">[PDF]</a></p></div>
+      
+      <div class="item list-item"><p><strong>Chenhan Xu</strong>, Huining Li, Zhengxiong Li, Hanbin Zhang, Aditya Singh Rathore, Xingyu Chen, Kun Wang, Ming-Chun Huang, Wenyao Xu, &ldquo;CardiacWave: A mmWave-based Scheme of Non-Contact and High-Definition Heart Activity Computing&rdquo;, <em>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</em> (<strong>UbiComp/IMWUT'21</strong>), Volume 5, Issue 3, Sept. 2021, Pages 1 - 26. 
+
+
+
+
+
+<a class="ui red basic medium label" href="/publication/ubicomp_21/paper.pdf">PDF</a>
+</p></div>
+      
+      
+      
+      
+      
+      <div class="item list-item"><p>Huining Li, <strong>Chenhan Xu</strong>, Aditya Singh Rathore, Zhengxiong Li, Hanbin Zhang, Chen Song, Kun Wang, Lu Su, Feng Lin, Kui Ren, Wenyao Xu, &ldquo;VocalPrint: Exploring A Resilient and Secure Voice Authentication via mmWave Biometric Interrogation&rdquo;, <em>ACM Conference on Embedded Networked Sensor Systems</em> (<strong>SenSys'20</strong>), Yokohama, Japan, Nov. 2020. 
+
+
+
+
+
+<a class="ui red basic medium label" href="/publication/sensys_20b/paper.pdf">PDF</a>
+</p></div>
       
       
       
       
       
       
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="item list-item"><p><strong>Chenhan Xu</strong>, Zhengxiong Li, Hanbin Zhang, Aditya Singh Rathore, Huining Li, Chen Song, Kun Wang, Wenyao Xu, &ldquo;WaveEar: Exploring a mmWave-based Noise-resistant Speech Sensing for Voice-User Interface&rdquo;, <em>ACM International Conference on Mobile Systems, Applications, and Services</em> (<strong>MobiSys'19</strong>), Seoul, South Korea, June 2019. 
+
+
+
+
+
+<a class="ui red basic medium label" href="/publication/mobisys_19/paper.pdf">PDF</a>
+</p></div>
       
       
       
@@ -382,7 +557,7 @@ Zhengxiong Li, Wenyao Xu, &ldquo;Hearing Heartbeat from Voice: Towards Next Gene
 
   <div class="ui">
     <a  href='/publication/'>
-      <div class="ui medium animated black button" tabindex="0">
+      <div class="ui small animated primary button" tabindex="0">
         <div class="visible content">All Publications</div>
         <div class="hidden content">
           <i class="book open icon"></i>
@@ -392,7 +567,61 @@ Zhengxiong Li, Wenyao Xu, &ldquo;Hearing Heartbeat from Voice: Towards Next Gene
   </div>
 
   </div>
+
+
 </div>
+
+
+
+<div class="ui container">
+  <div class="ui horizontal divider">
+    Professional Activities
+  </div>
+  <div class="ui center aligned stackable grid container" style="padding-top: 1em;padding-bottom: 1em;">
+    <div class="ui list" style="padding-left: 0; padding-right: 0;">
+      
+      <h4 class="ui header">Program Committee Member</h4>
+      <div class="item list-item"><ul>
+<li>IEEE International Performance Computing and Communications Conference (IPCCC) [2023]</li>
+<li>International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP) [2023]</li>
+<li>ACM Conference on Embedded Networked Sensor Systems (SenSys) Shadow PC [2022]</li>
+<li>IEEE International Conference on Communications (ICC) [2018, 2019, 2020]</li>
+</ul>
+</div>
+      
+      <h4 class="ui header">Reviewer</h4>
+      <div class="item list-item"><ul>
+<li>ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp) [2022, 2023]</li>
+<li>ACM Transactions on Sensor Networks (TOSN)</li>
+<li>ACM Transactions on Mobile Computing (TMC)</li>
+<li>IEEE Internet of Things Journal (IOTJ)</li>
+<li>IEEE International Conference on Computer Communications (INFOCOM) [2021, 2022]</li>
+<li>IEEE/ACM international conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE) - [2019, 2020]</li>
+<li>IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI) [2019]</li>
+<li>IEEE Transactions on Services Computing</li>
+<li>IEEE Transactions on Parallel and Distributed Systems (TPDS)</li>
+<li>IEEE Communications Magazine</li>
+<li>IEEE Network Magazine</li>
+<li>IEEE Transactions on Vehicular Technology (TVT)</li>
+<li>IEEE Transactions on Emerging Topics in Computing</li>
+<li>International Conference on Wireless Communications and Signal Processing [2016]</li>
+</ul>
+</div>
+      
+    </div>
+  </div>
+
+
+  <div class="ui divider"></div>
+
+</div>
+
+
+<footer>
+  <div class="ui center aligned container">
+    <i class="copyright outline icon"></i>Copyright 2023 Chenhan Xu.
+  </div>
+</footer>
 
 
 </div>

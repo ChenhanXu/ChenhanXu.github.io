@@ -879,12 +879,12 @@ input[type="file"].ui.file.input:focus + label.ui.button:not(.basic):not(.tertia
 /* this is related to existing buttons, so the button color variable is used here! */
 input[type="file"].ui.file.input:focus + label.ui.primary.button:not(.basic):not(.tertiary),
 .ui.file.input input[type="file"]:focus + label.ui.primary.button:not(.basic):not(.tertiary) {
-  background-color: #1678c2;
+  background-color: #b30000;
   color: #fff;
 }
 input[type="file"].ui.file.input:focus + label.ui.primary.button:not(.basic):not(.tertiary).inverted,
 .ui.file.input input[type="file"]:focus + label.ui.primary.button:not(.basic):not(.tertiary).inverted {
-  background-color: #21b8ff;
+  background-color: #ff392b;
 }
 input[type="file"].ui.file.input:focus + label.ui.secondary.button:not(.basic):not(.tertiary),
 .ui.file.input input[type="file"]:focus + label.ui.secondary.button:not(.basic):not(.tertiary) {
@@ -897,7 +897,7 @@ input[type="file"].ui.file.input:focus + label.ui.secondary.button:not(.basic):n
 }
 input[type="file"].ui.file.input:focus + label.ui.red.button:not(.basic):not(.tertiary),
 .ui.file.input input[type="file"]:focus + label.ui.red.button:not(.basic):not(.tertiary) {
-  background-color: #d01919;
+  background-color: #b30000;
   color: #fff;
 }
 input[type="file"].ui.file.input:focus + label.ui.red.button:not(.basic):not(.tertiary).inverted,
@@ -906,7 +906,7 @@ input[type="file"].ui.file.input:focus + label.ui.red.button:not(.basic):not(.te
 }
 input[type="file"].ui.file.input:focus + label.ui.orange.button:not(.basic):not(.tertiary),
 .ui.file.input input[type="file"]:focus + label.ui.orange.button:not(.basic):not(.tertiary) {
-  background-color: #f26202;
+  background-color: #bd3f00;
   color: #fff;
 }
 input[type="file"].ui.file.input:focus + label.ui.orange.button:not(.basic):not(.tertiary).inverted,
@@ -915,7 +915,7 @@ input[type="file"].ui.file.input:focus + label.ui.orange.button:not(.basic):not(
 }
 input[type="file"].ui.file.input:focus + label.ui.yellow.button:not(.basic):not(.tertiary),
 .ui.file.input input[type="file"]:focus + label.ui.yellow.button:not(.basic):not(.tertiary) {
-  background-color: #eaae00;
+  background-color: #e1b400;
   color: #fff;
 }
 input[type="file"].ui.file.input:focus + label.ui.yellow.button:not(.basic):not(.tertiary).inverted,
@@ -933,7 +933,7 @@ input[type="file"].ui.file.input:focus + label.ui.olive.button:not(.basic):not(.
 }
 input[type="file"].ui.file.input:focus + label.ui.green.button:not(.basic):not(.tertiary),
 .ui.file.input input[type="file"]:focus + label.ui.green.button:not(.basic):not(.tertiary) {
-  background-color: #16ab39;
+  background-color: #5f6c13;
   color: #fff;
 }
 input[type="file"].ui.file.input:focus + label.ui.green.button:not(.basic):not(.tertiary).inverted,
@@ -951,7 +951,7 @@ input[type="file"].ui.file.input:focus + label.ui.teal.button:not(.basic):not(.t
 }
 input[type="file"].ui.file.input:focus + label.ui.blue.button:not(.basic):not(.tertiary),
 .ui.file.input input[type="file"]:focus + label.ui.blue.button:not(.basic):not(.tertiary) {
-  background-color: #1678c2;
+  background-color: #377185;
   color: #fff;
 }
 input[type="file"].ui.file.input:focus + label.ui.blue.button:not(.basic):not(.tertiary).inverted,
@@ -1014,37 +1014,37 @@ input[type="file"].ui.file.input:focus + label.ui.black.button:not(.basic):not(.
 }
 input[type="file"].ui.primary.file.input::-webkit-file-upload-button,
 .ui.primary.file.input input[type="file"]::-webkit-file-upload-button {
-  background: #2185d0;
+  background: #cc0000;
   color: #fff;
 }
 input[type="file"].ui.primary.file.input::-webkit-file-upload-button:hover,
 .ui.primary.file.input input[type="file"]::-webkit-file-upload-button:hover {
-  background: #1678c2;
+  background: #b30000;
 }
 input[type="file"].ui.primary.file.input::-ms-browse,
 .ui.primary.file.input input[type="file"]::-ms-browse {
-  background: #2185d0;
+  background: #cc0000;
   color: #fff;
 }
 input[type="file"].ui.primary.file.input::-ms-browse:hover,
 .ui.primary.file.input input[type="file"]::-ms-browse:hover {
-  background: #1678c2;
+  background: #b30000;
 }
 input[type="file"].ui.primary.file.input::-webkit-file-upload-button, .ui.primary.file.input input[type="file"]::-webkit-file-upload-button {
-  background: #2185d0;
+  background: #cc0000;
   color: #fff;
 }
 input[type="file"].ui.primary.file.input::file-selector-button,
 .ui.primary.file.input input[type="file"]::file-selector-button {
-  background: #2185d0;
+  background: #cc0000;
   color: #fff;
 }
 input[type="file"].ui.primary.file.input::-webkit-file-upload-button:hover, .ui.primary.file.input input[type="file"]::-webkit-file-upload-button:hover {
-  background: #1678c2;
+  background: #b30000;
 }
 input[type="file"].ui.primary.file.input::file-selector-button:hover,
 .ui.primary.file.input input[type="file"]::file-selector-button:hover {
-  background: #1678c2;
+  background: #b30000;
 }
 input[type="file"].ui.secondary.file.input::-webkit-file-upload-button,
 .ui.secondary.file.input input[type="file"]::-webkit-file-upload-button {
@@ -1082,105 +1082,105 @@ input[type="file"].ui.secondary.file.input::file-selector-button:hover,
 }
 input[type="file"].ui.red.file.input::-webkit-file-upload-button,
 .ui.red.file.input input[type="file"]::-webkit-file-upload-button {
-  background: #db2828;
+  background: #cc0000;
   color: #fff;
 }
 input[type="file"].ui.red.file.input::-webkit-file-upload-button:hover,
 .ui.red.file.input input[type="file"]::-webkit-file-upload-button:hover {
-  background: #d01919;
+  background: #b30000;
 }
 input[type="file"].ui.red.file.input::-ms-browse,
 .ui.red.file.input input[type="file"]::-ms-browse {
-  background: #db2828;
+  background: #cc0000;
   color: #fff;
 }
 input[type="file"].ui.red.file.input::-ms-browse:hover,
 .ui.red.file.input input[type="file"]::-ms-browse:hover {
-  background: #d01919;
+  background: #b30000;
 }
 input[type="file"].ui.red.file.input::-webkit-file-upload-button, .ui.red.file.input input[type="file"]::-webkit-file-upload-button {
-  background: #db2828;
+  background: #cc0000;
   color: #fff;
 }
 input[type="file"].ui.red.file.input::file-selector-button,
 .ui.red.file.input input[type="file"]::file-selector-button {
-  background: #db2828;
+  background: #cc0000;
   color: #fff;
 }
 input[type="file"].ui.red.file.input::-webkit-file-upload-button:hover, .ui.red.file.input input[type="file"]::-webkit-file-upload-button:hover {
-  background: #d01919;
+  background: #b30000;
 }
 input[type="file"].ui.red.file.input::file-selector-button:hover,
 .ui.red.file.input input[type="file"]::file-selector-button:hover {
-  background: #d01919;
+  background: #b30000;
 }
 input[type="file"].ui.orange.file.input::-webkit-file-upload-button,
 .ui.orange.file.input input[type="file"]::-webkit-file-upload-button {
-  background: #f2711c;
+  background: #D14905;
   color: #fff;
 }
 input[type="file"].ui.orange.file.input::-webkit-file-upload-button:hover,
 .ui.orange.file.input input[type="file"]::-webkit-file-upload-button:hover {
-  background: #f26202;
+  background: #bd3f00;
 }
 input[type="file"].ui.orange.file.input::-ms-browse,
 .ui.orange.file.input input[type="file"]::-ms-browse {
-  background: #f2711c;
+  background: #D14905;
   color: #fff;
 }
 input[type="file"].ui.orange.file.input::-ms-browse:hover,
 .ui.orange.file.input input[type="file"]::-ms-browse:hover {
-  background: #f26202;
+  background: #bd3f00;
 }
 input[type="file"].ui.orange.file.input::-webkit-file-upload-button, .ui.orange.file.input input[type="file"]::-webkit-file-upload-button {
-  background: #f2711c;
+  background: #D14905;
   color: #fff;
 }
 input[type="file"].ui.orange.file.input::file-selector-button,
 .ui.orange.file.input input[type="file"]::file-selector-button {
-  background: #f2711c;
+  background: #D14905;
   color: #fff;
 }
 input[type="file"].ui.orange.file.input::-webkit-file-upload-button:hover, .ui.orange.file.input input[type="file"]::-webkit-file-upload-button:hover {
-  background: #f26202;
+  background: #bd3f00;
 }
 input[type="file"].ui.orange.file.input::file-selector-button:hover,
 .ui.orange.file.input input[type="file"]::file-selector-button:hover {
-  background: #f26202;
+  background: #bd3f00;
 }
 input[type="file"].ui.yellow.file.input::-webkit-file-upload-button,
 .ui.yellow.file.input input[type="file"]::-webkit-file-upload-button {
-  background: #fbbd08;
+  background: #FAC800;
   color: #fff;
 }
 input[type="file"].ui.yellow.file.input::-webkit-file-upload-button:hover,
 .ui.yellow.file.input input[type="file"]::-webkit-file-upload-button:hover {
-  background: #eaae00;
+  background: #e1b400;
 }
 input[type="file"].ui.yellow.file.input::-ms-browse,
 .ui.yellow.file.input input[type="file"]::-ms-browse {
-  background: #fbbd08;
+  background: #FAC800;
   color: #fff;
 }
 input[type="file"].ui.yellow.file.input::-ms-browse:hover,
 .ui.yellow.file.input input[type="file"]::-ms-browse:hover {
-  background: #eaae00;
+  background: #e1b400;
 }
 input[type="file"].ui.yellow.file.input::-webkit-file-upload-button, .ui.yellow.file.input input[type="file"]::-webkit-file-upload-button {
-  background: #fbbd08;
+  background: #FAC800;
   color: #fff;
 }
 input[type="file"].ui.yellow.file.input::file-selector-button,
 .ui.yellow.file.input input[type="file"]::file-selector-button {
-  background: #fbbd08;
+  background: #FAC800;
   color: #fff;
 }
 input[type="file"].ui.yellow.file.input::-webkit-file-upload-button:hover, .ui.yellow.file.input input[type="file"]::-webkit-file-upload-button:hover {
-  background: #eaae00;
+  background: #e1b400;
 }
 input[type="file"].ui.yellow.file.input::file-selector-button:hover,
 .ui.yellow.file.input input[type="file"]::file-selector-button:hover {
-  background: #eaae00;
+  background: #e1b400;
 }
 input[type="file"].ui.olive.file.input::-webkit-file-upload-button,
 .ui.olive.file.input input[type="file"]::-webkit-file-upload-button {
@@ -1218,37 +1218,37 @@ input[type="file"].ui.olive.file.input::file-selector-button:hover,
 }
 input[type="file"].ui.green.file.input::-webkit-file-upload-button,
 .ui.green.file.input input[type="file"]::-webkit-file-upload-button {
-  background: #21ba45;
+  background: #6F7D1C;
   color: #fff;
 }
 input[type="file"].ui.green.file.input::-webkit-file-upload-button:hover,
 .ui.green.file.input input[type="file"]::-webkit-file-upload-button:hover {
-  background: #16ab39;
+  background: #5f6c13;
 }
 input[type="file"].ui.green.file.input::-ms-browse,
 .ui.green.file.input input[type="file"]::-ms-browse {
-  background: #21ba45;
+  background: #6F7D1C;
   color: #fff;
 }
 input[type="file"].ui.green.file.input::-ms-browse:hover,
 .ui.green.file.input input[type="file"]::-ms-browse:hover {
-  background: #16ab39;
+  background: #5f6c13;
 }
 input[type="file"].ui.green.file.input::-webkit-file-upload-button, .ui.green.file.input input[type="file"]::-webkit-file-upload-button {
-  background: #21ba45;
+  background: #6F7D1C;
   color: #fff;
 }
 input[type="file"].ui.green.file.input::file-selector-button,
 .ui.green.file.input input[type="file"]::file-selector-button {
-  background: #21ba45;
+  background: #6F7D1C;
   color: #fff;
 }
 input[type="file"].ui.green.file.input::-webkit-file-upload-button:hover, .ui.green.file.input input[type="file"]::-webkit-file-upload-button:hover {
-  background: #16ab39;
+  background: #5f6c13;
 }
 input[type="file"].ui.green.file.input::file-selector-button:hover,
 .ui.green.file.input input[type="file"]::file-selector-button:hover {
-  background: #16ab39;
+  background: #5f6c13;
 }
 input[type="file"].ui.teal.file.input::-webkit-file-upload-button,
 .ui.teal.file.input input[type="file"]::-webkit-file-upload-button {
@@ -1286,37 +1286,37 @@ input[type="file"].ui.teal.file.input::file-selector-button:hover,
 }
 input[type="file"].ui.blue.file.input::-webkit-file-upload-button,
 .ui.blue.file.input input[type="file"]::-webkit-file-upload-button {
-  background: #2185d0;
+  background: #427E93;
   color: #fff;
 }
 input[type="file"].ui.blue.file.input::-webkit-file-upload-button:hover,
 .ui.blue.file.input input[type="file"]::-webkit-file-upload-button:hover {
-  background: #1678c2;
+  background: #377185;
 }
 input[type="file"].ui.blue.file.input::-ms-browse,
 .ui.blue.file.input input[type="file"]::-ms-browse {
-  background: #2185d0;
+  background: #427E93;
   color: #fff;
 }
 input[type="file"].ui.blue.file.input::-ms-browse:hover,
 .ui.blue.file.input input[type="file"]::-ms-browse:hover {
-  background: #1678c2;
+  background: #377185;
 }
 input[type="file"].ui.blue.file.input::-webkit-file-upload-button, .ui.blue.file.input input[type="file"]::-webkit-file-upload-button {
-  background: #2185d0;
+  background: #427E93;
   color: #fff;
 }
 input[type="file"].ui.blue.file.input::file-selector-button,
 .ui.blue.file.input input[type="file"]::file-selector-button {
-  background: #2185d0;
+  background: #427E93;
   color: #fff;
 }
 input[type="file"].ui.blue.file.input::-webkit-file-upload-button:hover, .ui.blue.file.input input[type="file"]::-webkit-file-upload-button:hover {
-  background: #1678c2;
+  background: #377185;
 }
 input[type="file"].ui.blue.file.input::file-selector-button:hover,
 .ui.blue.file.input input[type="file"]::file-selector-button:hover {
-  background: #1678c2;
+  background: #377185;
 }
 input[type="file"].ui.violet.file.input::-webkit-file-upload-button,
 .ui.violet.file.input input[type="file"]::-webkit-file-upload-button {

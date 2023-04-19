@@ -706,13 +706,13 @@
 .ui.primary.popup,
 [data-tooltip][data-variation~="primary"]::after,
 [data-tooltip][data-variation~="primary"]::before {
-  background: #2185d0;
+  background: #cc0000;
   color: #fff;
   border: none;
 }
 .ui.ui.ui.primary.loading.popup::before,
 .ui.primary.loading.popup {
-  background: #9bcbef;
+  background: #ff6666;
 }
 .ui.ui.ui.primary.popup::before,
 [data-tooltip][data-variation~="primary"]::before {
@@ -722,12 +722,12 @@
 .ui.inverted.primary.popup,
 [data-tooltip][data-inverted][data-variation~="primary"]::after,
 [data-tooltip][data-inverted][data-variation~="primary"]::before {
-  background: #54c8ff;
+  background: #ff695e;
   color: #1b1c1d;
 }
 .ui.ui.ui.inverted.primary.loading.popup::before,
 .ui.inverted.primary.loading.popup {
-  background: #007eba;
+  background: #c40d00;
 }
 .ui.ui.ui.secondary.popup::before,
 .ui.secondary.popup,
@@ -760,13 +760,13 @@
 .ui.red.popup,
 [data-tooltip][data-variation~="red"]::after,
 [data-tooltip][data-variation~="red"]::before {
-  background: #db2828;
+  background: #cc0000;
   color: #fff;
   border: none;
 }
 .ui.ui.ui.red.loading.popup::before,
 .ui.red.loading.popup {
-  background: #f1abab;
+  background: #ff6666;
 }
 .ui.ui.ui.red.popup::before,
 [data-tooltip][data-variation~="red"]::before {
@@ -787,13 +787,13 @@
 .ui.orange.popup,
 [data-tooltip][data-variation~="orange"]::after,
 [data-tooltip][data-variation~="orange"]::before {
-  background: #f2711c;
+  background: #D14905;
   color: #fff;
   border: none;
 }
 .ui.ui.ui.orange.loading.popup::before,
 .ui.orange.loading.popup {
-  background: #faccad;
+  background: #fca173;
 }
 .ui.ui.ui.orange.popup::before,
 [data-tooltip][data-variation~="orange"]::before {
@@ -814,13 +814,13 @@
 .ui.yellow.popup,
 [data-tooltip][data-variation~="yellow"]::after,
 [data-tooltip][data-variation~="yellow"]::before {
-  background: #fbbd08;
+  background: #FAC800;
   color: #fff;
   border: none;
 }
 .ui.ui.ui.yellow.loading.popup::before,
 .ui.yellow.loading.popup {
-  background: #fde59f;
+  background: #ffea94;
 }
 .ui.ui.ui.yellow.popup::before,
 [data-tooltip][data-variation~="yellow"]::before {
@@ -868,13 +868,13 @@
 .ui.green.popup,
 [data-tooltip][data-variation~="green"]::after,
 [data-tooltip][data-variation~="green"]::before {
-  background: #21ba45;
+  background: #6F7D1C;
   color: #fff;
   border: none;
 }
 .ui.ui.ui.green.loading.popup::before,
 .ui.green.loading.popup {
-  background: #8aeaa0;
+  background: #c7da58;
 }
 .ui.ui.ui.green.popup::before,
 [data-tooltip][data-variation~="green"]::before {
@@ -922,13 +922,13 @@
 .ui.blue.popup,
 [data-tooltip][data-variation~="blue"]::after,
 [data-tooltip][data-variation~="blue"]::before {
-  background: #2185d0;
+  background: #427E93;
   color: #fff;
   border: none;
 }
 .ui.ui.ui.blue.loading.popup::before,
 .ui.blue.loading.popup {
-  background: #9bcbef;
+  background: #9cc4d2;
 }
 .ui.ui.ui.blue.popup::before,
 [data-tooltip][data-variation~="blue"]::before {

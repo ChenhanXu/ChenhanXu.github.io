@@ -87,21 +87,21 @@
      Colors
 -------------- */
 .ui.primary.rating .active.icon {
-  color: #54c8ff;
-  text-shadow: 0 -1px 0 #2185d0, -1px 0 0 #2185d0, 0 1px 0 #2185d0, 1px 0 0 #2185d0;
+  color: #ff695e;
+  text-shadow: 0 -1px 0 #cc0000, -1px 0 0 #cc0000, 0 1px 0 #cc0000, 1px 0 0 #cc0000;
 }
 .ui.primary.rating .icon.selected,
 .ui.primary.rating .icon.selected.active,
 .ui.primary.rating .icon.selected.partial.active {
   background: inherit;
-  color: #21b8ff;
-  text-shadow: 0 -1px 0 #1678c2, -1px 0 0 #1678c2, 0 1px 0 #1678c2, 1px 0 0 #1678c2;
+  color: #ff392b;
+  text-shadow: 0 -1px 0 #b30000, -1px 0 0 #b30000, 0 1px 0 #b30000, 1px 0 0 #b30000;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
 .ui.primary.rating .icon.partial.active {
-  background: linear-gradient(to right, #54c8ff 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
-  -webkit-text-stroke: #2185d0 0.78px;
+  background: linear-gradient(to right, #ff695e 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
+  -webkit-text-stroke: #cc0000 0.78px;
 }
 .ui.secondary.rating .active.icon {
   color: #545454;
@@ -122,54 +122,54 @@
 }
 .ui.red.rating .active.icon {
   color: #ff695e;
-  text-shadow: 0 -1px 0 #db2828, -1px 0 0 #db2828, 0 1px 0 #db2828, 1px 0 0 #db2828;
+  text-shadow: 0 -1px 0 #cc0000, -1px 0 0 #cc0000, 0 1px 0 #cc0000, 1px 0 0 #cc0000;
 }
 .ui.red.rating .icon.selected,
 .ui.red.rating .icon.selected.active,
 .ui.red.rating .icon.selected.partial.active {
   background: inherit;
   color: #ff392b;
-  text-shadow: 0 -1px 0 #d01919, -1px 0 0 #d01919, 0 1px 0 #d01919, 1px 0 0 #d01919;
+  text-shadow: 0 -1px 0 #b30000, -1px 0 0 #b30000, 0 1px 0 #b30000, 1px 0 0 #b30000;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
 .ui.red.rating .icon.partial.active {
   background: linear-gradient(to right, #ff695e 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
-  -webkit-text-stroke: #db2828 0.78px;
+  -webkit-text-stroke: #cc0000 0.78px;
 }
 .ui.orange.rating .active.icon {
   color: #ff851b;
-  text-shadow: 0 -1px 0 #f2711c, -1px 0 0 #f2711c, 0 1px 0 #f2711c, 1px 0 0 #f2711c;
+  text-shadow: 0 -1px 0 #D14905, -1px 0 0 #D14905, 0 1px 0 #D14905, 1px 0 0 #D14905;
 }
 .ui.orange.rating .icon.selected,
 .ui.orange.rating .icon.selected.active,
 .ui.orange.rating .icon.selected.partial.active {
   background: inherit;
   color: #e76b00;
-  text-shadow: 0 -1px 0 #f26202, -1px 0 0 #f26202, 0 1px 0 #f26202, 1px 0 0 #f26202;
+  text-shadow: 0 -1px 0 #bd3f00, -1px 0 0 #bd3f00, 0 1px 0 #bd3f00, 1px 0 0 #bd3f00;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
 .ui.orange.rating .icon.partial.active {
   background: linear-gradient(to right, #ff851b 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
-  -webkit-text-stroke: #f2711c 0.78px;
+  -webkit-text-stroke: #D14905 0.78px;
 }
 .ui.yellow.rating .active.icon {
   color: #ffe21f;
-  text-shadow: 0 -1px 0 #fbbd08, -1px 0 0 #fbbd08, 0 1px 0 #fbbd08, 1px 0 0 #fbbd08;
+  text-shadow: 0 -1px 0 #FAC800, -1px 0 0 #FAC800, 0 1px 0 #FAC800, 1px 0 0 #FAC800;
 }
 .ui.yellow.rating .icon.selected,
 .ui.yellow.rating .icon.selected.active,
 .ui.yellow.rating .icon.selected.partial.active {
   background: inherit;
   color: #ebcd00;
-  text-shadow: 0 -1px 0 #eaae00, -1px 0 0 #eaae00, 0 1px 0 #eaae00, 1px 0 0 #eaae00;
+  text-shadow: 0 -1px 0 #e1b400, -1px 0 0 #e1b400, 0 1px 0 #e1b400, 1px 0 0 #e1b400;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
 .ui.yellow.rating .icon.partial.active {
   background: linear-gradient(to right, #ffe21f 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
-  -webkit-text-stroke: #fbbd08 0.78px;
+  -webkit-text-stroke: #FAC800 0.78px;
 }
 .ui.olive.rating .active.icon {
   color: #d9e778;
@@ -190,20 +190,20 @@
 }
 .ui.green.rating .active.icon {
   color: #2ecc40;
-  text-shadow: 0 -1px 0 #21ba45, -1px 0 0 #21ba45, 0 1px 0 #21ba45, 1px 0 0 #21ba45;
+  text-shadow: 0 -1px 0 #6F7D1C, -1px 0 0 #6F7D1C, 0 1px 0 #6F7D1C, 1px 0 0 #6F7D1C;
 }
 .ui.green.rating .icon.selected,
 .ui.green.rating .icon.selected.active,
 .ui.green.rating .icon.selected.partial.active {
   background: inherit;
   color: #1ea92e;
-  text-shadow: 0 -1px 0 #16ab39, -1px 0 0 #16ab39, 0 1px 0 #16ab39, 1px 0 0 #16ab39;
+  text-shadow: 0 -1px 0 #5f6c13, -1px 0 0 #5f6c13, 0 1px 0 #5f6c13, 1px 0 0 #5f6c13;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
 .ui.green.rating .icon.partial.active {
   background: linear-gradient(to right, #2ecc40 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
-  -webkit-text-stroke: #21ba45 0.78px;
+  -webkit-text-stroke: #6F7D1C 0.78px;
 }
 .ui.teal.rating .active.icon {
   color: #6dffff;
@@ -224,20 +224,20 @@
 }
 .ui.blue.rating .active.icon {
   color: #54c8ff;
-  text-shadow: 0 -1px 0 #2185d0, -1px 0 0 #2185d0, 0 1px 0 #2185d0, 1px 0 0 #2185d0;
+  text-shadow: 0 -1px 0 #427E93, -1px 0 0 #427E93, 0 1px 0 #427E93, 1px 0 0 #427E93;
 }
 .ui.blue.rating .icon.selected,
 .ui.blue.rating .icon.selected.active,
 .ui.blue.rating .icon.selected.partial.active {
   background: inherit;
   color: #21b8ff;
-  text-shadow: 0 -1px 0 #1678c2, -1px 0 0 #1678c2, 0 1px 0 #1678c2, 1px 0 0 #1678c2;
+  text-shadow: 0 -1px 0 #377185, -1px 0 0 #377185, 0 1px 0 #377185, 1px 0 0 #377185;
   -webkit-text-stroke: unset;
   background-clip: unset;
 }
 .ui.blue.rating .icon.partial.active {
   background: linear-gradient(to right, #54c8ff 0% var(--full), rgba(0, 0, 0, 0.15) var(--full) 100%);
-  -webkit-text-stroke: #2185d0 0.78px;
+  -webkit-text-stroke: #427E93 0.78px;
 }
 .ui.violet.rating .active.icon {
   color: #a291fb;

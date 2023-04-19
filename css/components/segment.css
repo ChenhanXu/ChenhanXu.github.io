@@ -534,24 +534,24 @@
        Colors
 -------------------- */
 .ui.red.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #db2828;
+  border-top: 2px solid #cc0000;
 }
 .ui.inverted.red.segment.segment.segment.segment.segment {
-  background-color: #db2828;
+  background-color: #cc0000;
   color: #fff;
 }
 .ui.orange.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #f2711c;
+  border-top: 2px solid #D14905;
 }
 .ui.inverted.orange.segment.segment.segment.segment.segment {
-  background-color: #f2711c;
+  background-color: #D14905;
   color: #fff;
 }
 .ui.yellow.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #fbbd08;
+  border-top: 2px solid #FAC800;
 }
 .ui.inverted.yellow.segment.segment.segment.segment.segment {
-  background-color: #fbbd08;
+  background-color: #FAC800;
   color: #fff;
 }
 .ui.olive.segment.segment.segment.segment.segment:not(.inverted) {
@@ -562,10 +562,10 @@
   color: #fff;
 }
 .ui.green.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #21ba45;
+  border-top: 2px solid #6F7D1C;
 }
 .ui.inverted.green.segment.segment.segment.segment.segment {
-  background-color: #21ba45;
+  background-color: #6F7D1C;
   color: #fff;
 }
 .ui.teal.segment.segment.segment.segment.segment:not(.inverted) {
@@ -576,10 +576,10 @@
   color: #fff;
 }
 .ui.blue.segment.segment.segment.segment.segment:not(.inverted) {
-  border-top: 2px solid #2185d0;
+  border-top: 2px solid #427E93;
 }
 .ui.inverted.blue.segment.segment.segment.segment.segment {
-  background-color: #2185d0;
+  background-color: #427E93;
   color: #fff;
 }
 .ui.violet.segment.segment.segment.segment.segment:not(.inverted) {

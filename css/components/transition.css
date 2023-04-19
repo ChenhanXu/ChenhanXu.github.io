@@ -84,10 +84,10 @@
   }
 }
 .primary.pulsating.transition {
-  box-shadow: 0 0 0 0 rgba(33, 133, 208, 0.5);
+  box-shadow: 0 0 0 0 rgba(204, 0, 0, 0.5);
 }
 .primary.inverted.pulsating.transition {
-  box-shadow: 0 0 0 0 rgba(84, 200, 255, 0.7);
+  box-shadow: 0 0 0 0 rgba(255, 105, 94, 0.7);
 }
 .secondary.pulsating.transition {
   box-shadow: 0 0 0 0 rgba(27, 28, 29, 0.5);
@@ -96,19 +96,19 @@
   box-shadow: 0 0 0 0 rgba(84, 84, 84, 0.7);
 }
 .red.pulsating.transition {
-  box-shadow: 0 0 0 0 rgba(219, 40, 40, 0.5);
+  box-shadow: 0 0 0 0 rgba(204, 0, 0, 0.5);
 }
 .red.inverted.pulsating.transition {
   box-shadow: 0 0 0 0 rgba(255, 105, 94, 0.7);
 }
 .orange.pulsating.transition {
-  box-shadow: 0 0 0 0 rgba(242, 113, 28, 0.5);
+  box-shadow: 0 0 0 0 rgba(209, 73, 5, 0.5);
 }
 .orange.inverted.pulsating.transition {
   box-shadow: 0 0 0 0 rgba(255, 133, 27, 0.7);
 }
 .yellow.pulsating.transition {
-  box-shadow: 0 0 0 0 rgba(251, 189, 8, 0.5);
+  box-shadow: 0 0 0 0 rgba(250, 200, 0, 0.5);
 }
 .yellow.inverted.pulsating.transition {
   box-shadow: 0 0 0 0 rgba(255, 226, 31, 0.7);
@@ -120,7 +120,7 @@
   box-shadow: 0 0 0 0 rgba(217, 231, 120, 0.7);
 }
 .green.pulsating.transition {
-  box-shadow: 0 0 0 0 rgba(33, 186, 69, 0.5);
+  box-shadow: 0 0 0 0 rgba(111, 125, 28, 0.5);
 }
 .green.inverted.pulsating.transition {
   box-shadow: 0 0 0 0 rgba(46, 204, 64, 0.7);
@@ -132,7 +132,7 @@
   box-shadow: 0 0 0 0 rgba(109, 255, 255, 0.7);
 }
 .blue.pulsating.transition {
-  box-shadow: 0 0 0 0 rgba(33, 133, 208, 0.5);
+  box-shadow: 0 0 0 0 rgba(66, 126, 147, 0.5);
 }
 .blue.inverted.pulsating.transition {
   box-shadow: 0 0 0 0 rgba(84, 200, 255, 0.7);

@@ -314,7 +314,7 @@
   background: #f3f4f5;
 }
 .ui.steps .step.active .title {
-  color: #4183c4;
+  color: #cc0000;
 }
 .ui.ordered.steps .step.active::before,
 .ui.steps .active.step i.icon {
@@ -348,7 +348,7 @@
 /* Completed */
 .ui.steps .step.completed > i.icon::before,
 .ui.ordered.steps .step.completed::before {
-  color: #21ba45;
+  color: #6F7D1C;
 }
 
 /* Disabled */
