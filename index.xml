@@ -6,7 +6,58 @@
     <description>Recent content on Chenhan Xu (许陈汉)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://chenhanxu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://chenhanxu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Chenhan served as Program Committee Member of IPCCC&#39;23.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Chenhan joined Computer Science Department at North Carolina State University.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Chenhan received the SEAS Dean&amp;rsquo;s Graduate Achievement Award.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>&lt;p&gt;
+
+&lt;span&gt;
+
+&lt;span&gt;&lt;u&gt;Tianyu Chen&lt;/u&gt;&lt;/span&gt;*&lt;/span&gt;, 
+
+&lt;span&gt;
+
+&lt;span&gt;&lt;u&gt;Alexander Gherardi&lt;/u&gt;&lt;/span&gt;*&lt;/span&gt;, Anarghya Das, Huining Li, &lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Wenyao Xu, &amp;ldquo;VANet: An intuitive light-weight deep learning solution towards Ventricular Arrhythmia detection&amp;rdquo;, &lt;em&gt;Elsevier Smart Health&lt;/em&gt;, Volume 28, June 2023. 
+
+
+
+
+
+&lt;a class=&#34;ui red basic medium label&#34; href=&#34;https://chenhanxu.github.io/publication/sh_23/paper.pdf&#34;&gt;PDF&lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title></title>
       <link></link>
@@ -54,7 +105,7 @@
       <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://chenhanxu.github.io/teaching/fall23_csc791/</guid>
-      <description>&lt;p&gt;Given the increasing advances of mobile and wearable technologies in people’s daily life, many biometrics and authentication techniques are being explored and developed (e.g., FaceID and TouchID). This course introduces students to the theory and practice of biometric (e.g., face and voice) authentication systems. The course will cover the fundamental principles of biometrics, including physiological and behavioral characteristics, and the algorithms and system architecture used to extract, represent, and match these characteristics. Students will also learn about the ethical and legal considerations surrounding the use of biometrics in security systems. The course will contain a semester-long project where students will group together to implement an authentication system prototype.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Given the increasing advances of mobile and wearable technologies in people’s daily life, many biometrics and authentication techniques are being explored and developed (e.g., FaceID and TouchID). This course introduces how people use their biological features, such as fingerprints, irises, retina, face or voice for personal identification or verification. The course will cover both the theory and practice of biometric authentication systems, including human physiological and behavioral characteristics (what &amp;amp; why), and the hardware, algorithm, and system architecture used to extract, represent, and match these characteristics (how). Students will also learn about the ethical and legal considerations surrounding the use of biometrics in security systems.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -155,7 +206,14 @@
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid></guid>
-      <description>&lt;p&gt;Huining Li, Wenhan Zheng, Aditya Pandya, &lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Jun Xia, Wenyao Xu, &amp;ldquo;Smartphone-based Blood Perfusion Assessment for Ulcer Care&amp;rdquo;, &lt;em&gt;ACM Conference on Embedded Networked Sensor Systems&lt;/em&gt; (&lt;strong&gt;SenSys&#39;22&lt;/strong&gt;), Boston, MA, Nov. 2022. 
+      <description>&lt;p&gt;Huining Li, Wenhan Zheng, Aditya Pandya, &lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Jun Xia, Wenyao Xu, &amp;ldquo;Smartphone-based Blood Perfusion Assessment for Ulcer Care&amp;rdquo;, &lt;em&gt;ACM Conference on Embedded Networked Sensor Systems&lt;/em&gt; (&lt;strong&gt;SenSys&#39;22&lt;/strong&gt;), Boston, MA, Nov. 2022. (
+
+
+&lt;span style=&#34;
+    color: red;
+    &#34;&gt;
+    Best Poster Runner-up
+&lt;/span&gt;)
 
 
 
@@ -221,7 +279,11 @@
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid></guid>
-      <description>&lt;p&gt;&lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Huining Li, Zhengxiong Li, Xingyu Chen, Aditya Singh Rathore, Hanbin Zhang, Kun Wang, Wenyao Xu, &amp;ldquo;The Visual Accelerometer: A High-fidelity Optic-to-Inertial Transformation Framework for Wearable Health Computing&amp;rdquo;, &lt;em&gt;IEEE International Conference on Health Informatics&lt;/em&gt; (&lt;strong&gt;ICHI&#39;22&lt;/strong&gt;), Rochester, MN, June 2022. (
+      <description>&lt;p&gt;&lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Huining Li, Zhengxiong Li, 
+
+&lt;span&gt;
+
+&lt;span&gt;&lt;u&gt;Xingyu Chen&lt;/u&gt;&lt;/span&gt;*&lt;/span&gt;, Aditya Singh Rathore, Hanbin Zhang, Kun Wang, Wenyao Xu, &amp;ldquo;The Visual Accelerometer: A High-fidelity Optic-to-Inertial Transformation Framework for Wearable Health Computing&amp;rdquo;, &lt;em&gt;IEEE International Conference on Health Informatics&lt;/em&gt; (&lt;strong&gt;ICHI&#39;22&lt;/strong&gt;), Rochester, MN, June 2022. (
 
 
 &lt;span style=&#34;
@@ -898,7 +960,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid></guid>
-      <description> ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp) [2022, 2023] ACM Transactions on Sensor Networks (TOSN) ACM Transactions on Mobile Computing (TMC) IEEE Internet of Things Journal (IOTJ) IEEE International Conference on Computer Communications (INFOCOM) [2021, 2022] IEEE/ACM international conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE) - [2019, 2020] IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI) [2019] IEEE Transactions on Services Computing IEEE Transactions on Parallel and Distributed Systems (TPDS) IEEE Communications Magazine IEEE Network Magazine IEEE Transactions on Vehicular Technology (TVT) IEEE Transactions on Emerging Topics in Computing International Conference on Wireless Communications and Signal Processing [2016] </description>
+      <description> ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp) [2022, 2023] IEEE-EMBS International Conference on Body Sensor Networks: Sensor and Systems for Digital Health (BSN 2023) ACM Transactions on Sensor Networks (TOSN) ACM Transactions on Mobile Computing (TMC) IEEE Internet of Things Journal (IOTJ) IEEE International Conference on Computer Communications (INFOCOM) [2021, 2022] IEEE/ACM international conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE) - [2019, 2020] IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI) [2019] IEEE Transactions on Services Computing IEEE Transactions on Parallel and Distributed Systems (TPDS) IEEE Communications Magazine IEEE Network Magazine IEEE Transactions on Vehicular Technology (TVT) IEEE Transactions on Emerging Topics in Computing International Conference on Wireless Communications and Signal Processing [2016] </description>
     </item>
     
   </channel>
