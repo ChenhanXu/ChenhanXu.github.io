@@ -6,7 +6,43 @@
     <description>Recent content on Chenhan Xu (许陈汉)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://chenhanxu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://chenhanxu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>We are organizing the Sensing and Computing for Smart and Connected Health workshop in conjunction with IEEE/ACM CHASE 2025. Please consider submitting your work!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>We got seed funding from N.C. PSI to support our project on improving labor efficiency in horticultural crop production.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Chenhan serves as an Associate Editor of Elsevier Smart Health Journal.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>One papge is accepted by IEEE Journal on Selected Areas in Communications (JSAC).</description>
+    </item>
+    
     <item>
       <title></title>
       <link></link>
@@ -14,6 +50,29 @@
       
       <guid></guid>
       <description>Chenhan serves as a Technical Program Committee Member of SenSys&#39;25.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>&lt;p&gt;Zhizhen Li, Xuanhao Luo, Mingzhe Chen, &lt;strong&gt;Chenhan Xu&lt;/strong&gt;, Shiwen Mao, and Yuchen Liu, &amp;ldquo;Contextual Combinatorial Beam Management via Online Probing for Multiple Access mmWave Wireless Networks&amp;rdquo;, IEEE Journal on Selected Areas in Communications (JSAC), to appear, 2025. 
+
+
+
+
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>We got an Educational and Technology Fund from NCSU to support our wireless sensing project.</description>
     </item>
     
     <item>
@@ -1098,12 +1157,21 @@
     </item>
     
     <item>
-      <title>Program Committee Member</title>
+      <title>Editorial Board</title>
       <link></link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid></guid>
-      <description> International Conference on Computer Communications and Networks (ICCCN) [2024] IEEE International Performance Computing and Communications Conference (IPCCC) [2023] IEEE-EMBS International Conference on Body Sensor Networks: Sensor and Systems for Digital Health (BSN) [2023] International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP) [2023] ACM Conference on Embedded Networked Sensor Systems (SenSys) Shadow PC [2022] IEEE International Conference on Communications (ICC) [2018, 2019, 2020] </description>
+      <description> Elsevier Smart Health Journal </description>
+    </item>
+    
+    <item>
+      <title>Program Committee</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description> ACM Conference on Embedded Networked Sensor Systems (SenSys) [2025] International Conference on Computer Communications and Networks (ICCCN) [2024] IEEE International Performance Computing and Communications Conference (IPCCC) [2023] IEEE-EMBS International Conference on Body Sensor Networks: Sensor and Systems for Digital Health (BSN) [2023, 2024] International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP) [2023] ACM Conference on Embedded Networked Sensor Systems (SenSys) Shadow PC [2022] IEEE International Conference on Communications (ICC) [2018, 2019, 2020] </description>
     </item>
     
     <item>
@@ -1112,7 +1180,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid></guid>
-      <description> ACM CHI conference on Human Factors in Computing Systems (CHI) [2024] ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp) [2022, 2023] Nature Scientific Data (2023) ACM Transactions on Sensor Networks (TOSN) ACM Transactions on Mobile Computing (TMC) IEEE Internet of Things Journal (IOTJ) IEEE International Conference on Computer Communications (INFOCOM) [2021, 2022] IEEE/ACM international conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE) - [2019, 2020] IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI) [2019] IEEE Transactions on Services Computing IEEE Transactions on Parallel and Distributed Systems (TPDS) IEEE Communications Magazine IEEE Network Magazine IEEE Transactions on Vehicular Technology (TVT) IEEE Transactions on Emerging Topics in Computing International Conference on Wireless Communications and Signal Processing [2016] </description>
+      <description> ACM CHI conference on Human Factors in Computing Systems (CHI) Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) ACM Symposium on User Interface Software and Technology (UIST) ACM Transactions on Design Automation of Electronic Systems (TODAES) Nature Scientific Data ACM Transactions on Sensor Networks (TOSN) ACM Transactions on Mobile Computing (TMC) IEEE Internet of Things Journal (IOTJ) IEEE International Conference on Computer Communications (INFOCOM) IEEE/ACM international conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE) IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI) IEEE Transactions on Services Computing IEEE Transactions on Parallel and Distributed Systems (TPDS) IEEE Communications Magazine IEEE Network Magazine IEEE Transactions on Vehicular Technology (TVT) IEEE Transactions on Emerging Topics in Computing International Conference on Wireless Communications and Signal Processing </description>
     </item>
     
   </channel>
