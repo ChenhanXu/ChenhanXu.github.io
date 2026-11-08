@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   
@@ -15,162 +15,38 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
 <link rel="stylesheet" href="https://chenhanxu.github.io/css/semantic.min.css">
 <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
 <script src="https://chenhanxu.github.io/css/semantic.min.js"></script>
+<link rel="preload" href="https://chenhanxu.github.io/fonts/source-serif-4/source-serif-4-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 
+<link rel="stylesheet" href="https://chenhanxu.github.io/css/site.css">
 
-
-<style>
-  .topnav {
-  background-color: #990000;
-  position: fixed;  
-  top: 0;  
-  width: 100%;  
-  z-index: 10;
-  overflow: hidden;
-  box-shadow: 0px -20px 50px 1px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px -20px 50px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px -20px 50px 1px rgba(0,0,0,0.75);
-}
-
- 
-.topnav a {
-  float: left;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-   
-}
-
- 
-.topnav a:hover {
-  background-color: #ffffff;
-  color: #990000;
-}
-
- 
-.topnav a.active {
-  background-color: #1f3bda;
-  color: white;
-}
-
- 
-.topnav .icon {
-  display: none;
-}
- 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .topnav .icon {
-  display: block;
-  }
-}
-
- 
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-  #Award {
-    color: lime;
-    font-weight: bold;
-  }
-  #Publication {
-    color: green;
-    font-weight: bold;
-  }
-  #Event {
-    color: blue;
-    font-weight: bold;
-  }
-  #Activity {
-    color: indigo;
-    font-weight: bold;
-  }
-  #Grant {
-    color: rgb(204, 0, 0);
-    font-weight: bold;
-  }
-  #Service {
-    color: gray;
-    font-weight: bold;
-  }
-
-  .ui .container {
-    margin-bottom: 20px;
-  }
-</style>
-  <style>
-    body {
-       
-    }
-  </style>
   
-<style>
-  .list-item p {
-    display: inline;
-  }
-  .ui .list {
-    text-align: justify;
-  }  
-</style>
-
   <title>
     Chenhan Xu (许陈汉)
     </title>
 </head>
 
 <body>
-  <div class="topnav" id="myTopnav">
-  <div class="ui centered container">
-  <a href="/">Home</a>
-  
-  <a class="item" href="/news/">
-    News
-  </a>
-  <a class="item" href="/publication/">
-    Publication
-  </a>
-  <a class="item" href="/teaching/">
-    Teaching
-  </a>
-  <a class="item" href="/lab/">
-    SSCS Lab
-  </a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="bars icon"></i>
-  </a>
-</div>
-</div>
-
-<div style="height: 120px">
-
-</div>
+  <nav class="topnav" id="myTopnav">
+  <div class="site-col topnav-inner">
+    <a href="/">Home</a>
+    <a href="/news/" class="active">News</a>
+    <a href="/publication/">Publication</a>
+    <a href="/teaching/">Teaching</a>
+    <a href="/lab/">SSCS Lab</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="Menu">
+      <i class="bars icon"></i>
+    </a>
+  </div>
+</nav>
 
 <script>
 function myFunction() {
-  window.scrollTo(0,0)
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
@@ -179,214 +55,372 @@ function myFunction() {
   }
 }
 </script>
-  
-  
 
-<div class="ui centered container">
+  <div class="sheet">
+    <main class="site-col">
+      
+<h1 class="page-title">News</h1>
+<ol class="timeline">
   
-    <div class="ui center aligned stackable grid container" style="padding-top: 1em;padding-bottom: 1em;">
-        <div class="row">
-        <div class="ui list" style="padding-left: 0; padding-right: 0;">
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>One paper is accepted in IROS 2026.</p>
- (2026/06)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>One paper is accepted in UbiComp/IMWUT 2026. Congratulations to Yuliang!</p>
- (2026/06)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Grant">Grant</div> <span><p>Received NCDA&amp;CS IAAE Grant as PI. Congratulations and thanks to all collaborators!</p>
- (2026/03)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Service">Service</div> <span><p>Glad to serve as Registration Chair of <a href="https://conferences.computer.org/chase2026/index.html?=">CHASE'26</a>. See you in Pittsburgh!</p>
- (2026/01)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>Five papers are accepted by IEEE-EMBS International Conference on Body Sensor Networks (BSN'25).</p>
- (2025/11)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Activity">Activity</div> <span><p>Chenhan gave a talk about SSCS Lab&rsquo;s work on IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI’25) workshop.</p>
- (2025/10)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Award">Award</div> <span><p>Our work on RF-based wound sensing instrument is selected as the Best Paper Candidate in International Workshop on Human-Centered Sensing, Modeling, and Intelligent Systems (HumanSys'25). Congrats to the team!</p>
- (2025/05)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Service">Service</div> <span><p>We are organizing the <a href="https://conferences.computer.org/chase2025/workshop_smart_connected.html">Sensing and Computing for Smart and Connected Health workshop</a> in conjunction with IEEE/ACM CHASE 2025. Please consider submitting your work!</p>
- (2024/12)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Grant">Grant</div> <span><p>We got seed funding from N.C. PSI to support our project on improving labor efficiency in horticultural crop production.</p>
- (2024/12)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Service">Service</div> <span><p>Chenhan serves as an Associate Editor of Elsevier Smart Health Journal.</p>
- (2024/11)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Service">Service</div> <span><p>Chenhan serves as a Technical Program Committee Member of SenSys'25.</p>
- (2024/11)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>One paper is accepted by IEEE Journal on Selected Areas in Communications (JSAC).</p>
- (2024/11)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Grant">Grant</div> <span><p>We got an Educational and Technology Fund from NCSU to support our wireless sensing project.</p>
- (2024/10)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Activity">Activity</div> <span><p>Chenhan completed the NIH mHealth Training Institute (mHTI) at UCLA.</p>
- (2024/08)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>One poster is accepted by IPSN'24.</p>
- (2024/03)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>One paper is accepted by ICC'24.</p>
- (2024/02)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Service">Service</div> <span><p>Chenhan served as Program Committee Member of ICCCN'24.</p>
- (2024/02)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Service">Service</div> <span><p>Chenhan served as Program Committee Member of BSN'23.</p>
- (2023/09)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Service">Service</div> <span><p>Chenhan served as Program Committee Member of IPCCC'23.</p>
- (2023/08)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Activity">Activity</div> <span><p>Chenhan joined Computer Science Department at North Carolina State University.</p>
- (2023/08)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Award">Award</div> <span><p>Chenhan received the SEAS Dean&rsquo;s Graduate Achievement Award.</p>
- (2023/07)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Activity">Activity</div> <span><p>Chenhan defended his Ph.D. dissertation. Thanks to the committee members: Prof. Wenyao Xu, Prof. Karthik Dantu, and Prof. Junsong Yuan!</p>
- (2023/05)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>Our paper &ldquo;AO-Finger: Hands-free Fine-grained Finger Gesture Recognition via Acoustic-Optic Sensor Fusing&rdquo; at <a href="https://research.snap.com/">Snap Research NYC</a> is accepted by CHI &lsquo;23.</p>
- (2023/03)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Award">Award</div> <span><p>Our work “Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function” is selected as the best paper candidate for SenSys'22 (7 out of 208). Thanks to all my collaborators.</p>
- (2022/11)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Award">Award</div> <span><p>Our work &ldquo;Poster Abstract: Smartphone-based Blood Perfusion Assessment for Ulcer Care&rdquo; wins the SenSys'22 best poster runner-up. Thanks to all my collaborators.</p>
- (2022/11)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>Our paper &ldquo;Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function&rdquo; is accepted by SenSys &lsquo;22.</p>
- (2022/10)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Service">Service</div> <span><p>Chenhan served as Shadow Program Committee of SenSys'22.</p>
- (2022/08)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Activity">Activity</div> <span><p>Chenhan will be joining <a href="https://research.snap.com/">Snap Research NYC</a> in the summer of 2022 as a Research Intern on HCI research.</p>
- (2022/04)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>Our paper &ldquo;CardiacWave: A mmWave-based Scheme of Non-Contact and High-Definition Heart Activity Computing&rdquo; is accepted by UbiComp &lsquo;21</p>
- (2021/07)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Activity">Activity</div> <span><p>Chenhan passed Ph.D. qualifying exam</p>
- (2021/02)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>Our paper &ldquo;VocalPrint: exploring a resilient and secure voice authentication via mmWave biometric interrogation&rdquo; is accepted by SenSys &lsquo;20</p>
- (2020/09)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Award">Award</div> <span><p>Our paper &ldquo;Sonicprint: a generally adoptable and secure fingerprint biometrics in smart devices&rdquo; received the Best Paper Award from the 2020 ACM MobiSys.</p>
- (2020/06)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Award">Award</div> <span><p>Chenhan received the First Year Achiever Award from CSE@UB</p>
- (2019/11)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Award">Award</div> <span><p>Our research work on mmWave-scannable paper tagging received the Best Paper Award from the 2019 ACM SenSys Conference.</p>
- (2019/11)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Award">Award</div> <span><p>Chenhan received the MobiSys &lsquo;19 travel grant</p>
- (2019/06)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>Our paper &ldquo;WaveEar: Exploring a mmWave-based Noise-resistant Speech Sensing for Voice-User Interface&rdquo; is accepted by MobiSys &lsquo;19</p>
- (2019/03)</span>
-          </div>
-          
-          <div class="item list-item">
-            <div class="ui horizontal right pointing large label" id="Award">Award</div> <span><p>Chenhan received the Chair&rsquo;s Fellowship from CSE@UB</p>
- (2018/09)</span>
-          </div>
-          
-        </div>
-        </div>
-    </div>
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2026-11'>2026/11</time>
+  <span class="timeline-type">Service</span>
+  <div class="timeline-text"><p>Glad to continue serving as Registration Chair of <a href="https://conferences.computer.org/chase2027/">CHASE'27</a>. See you in the Research Triangle!</p>
 </div>
+</li>
 
   
   
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2026-10'>2026/10</time>
+  <span class="timeline-type">Service</span>
+  <div class="timeline-text"><p>Organized the NC State Workshop on Cyber-Physical and Robotic Systems, which concluded successfully. Thanks to all presenters and attendees!</p>
+</div>
+</li>
+
   
-  <footer>
-  <div class="ui center aligned container">
-    <i class="copyright outline icon"></i>Copyright 2026 Chenhan Xu.
-  </div>
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2026-06'>2026/06</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>One paper is accepted in IROS 2026.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2026-06'>2026/06</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>One paper is accepted in UbiComp/IMWUT 2026. Congratulations to Yuliang!</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2026-03'>2026/03</time>
+  <span class="timeline-type">Grant</span>
+  <div class="timeline-text"><p>Received NCDA&amp;CS IAAE Grant as PI. Congratulations and thanks to all collaborators!</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2026-01'>2026/01</time>
+  <span class="timeline-type">Service</span>
+  <div class="timeline-text"><p>Glad to serve as Registration Chair of <a href="https://conferences.computer.org/chase2026/index.html?=">CHASE'26</a>. See you in Pittsburgh!</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2025-11'>2025/11</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>Five papers are accepted by IEEE-EMBS International Conference on Body Sensor Networks (BSN'25).</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2025-10'>2025/10</time>
+  <span class="timeline-type">Activity</span>
+  <div class="timeline-text"><p>Chenhan gave a talk about SSCS Lab&rsquo;s work on IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI’25) workshop.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2025-05'>2025/05</time>
+  <span class="timeline-type">Award</span>
+  <div class="timeline-text"><p>Our work on RF-based wound sensing instrument is selected as the Best Paper Candidate in International Workshop on Human-Centered Sensing, Modeling, and Intelligent Systems (HumanSys'25). Congrats to the team!</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2024-12'>2024/12</time>
+  <span class="timeline-type">Service</span>
+  <div class="timeline-text"><p>We are organizing the <a href="https://conferences.computer.org/chase2025/workshop_smart_connected.html">Sensing and Computing for Smart and Connected Health workshop</a> in conjunction with IEEE/ACM CHASE 2025. Please consider submitting your work!</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2024-12'>2024/12</time>
+  <span class="timeline-type">Grant</span>
+  <div class="timeline-text"><p>We got seed funding from N.C. PSI to support our project on improving labor efficiency in horticultural crop production.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2024-11'>2024/11</time>
+  <span class="timeline-type">Service</span>
+  <div class="timeline-text"><p>Chenhan serves as an Associate Editor of Elsevier Smart Health Journal.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2024-11'>2024/11</time>
+  <span class="timeline-type">Service</span>
+  <div class="timeline-text"><p>Chenhan serves as a Technical Program Committee Member of SenSys'25.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2024-11'>2024/11</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>One paper is accepted by IEEE Journal on Selected Areas in Communications (JSAC).</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2024-10'>2024/10</time>
+  <span class="timeline-type">Grant</span>
+  <div class="timeline-text"><p>We got an Educational and Technology Fund from NCSU to support our wireless sensing project.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2024-08'>2024/08</time>
+  <span class="timeline-type">Activity</span>
+  <div class="timeline-text"><p>Chenhan completed the NIH mHealth Training Institute (mHTI) at UCLA.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2024-03'>2024/03</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>One poster is accepted by IPSN'24.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2024-02'>2024/02</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>One paper is accepted by ICC'24.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2024-02'>2024/02</time>
+  <span class="timeline-type">Service</span>
+  <div class="timeline-text"><p>Chenhan served as Program Committee Member of ICCCN'24.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2023-09'>2023/09</time>
+  <span class="timeline-type">Service</span>
+  <div class="timeline-text"><p>Chenhan served as Program Committee Member of BSN'23.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2023-08'>2023/08</time>
+  <span class="timeline-type">Service</span>
+  <div class="timeline-text"><p>Chenhan served as Program Committee Member of IPCCC'23.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2023-08'>2023/08</time>
+  <span class="timeline-type">Activity</span>
+  <div class="timeline-text"><p>Chenhan joined Computer Science Department at North Carolina State University.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2023-07'>2023/07</time>
+  <span class="timeline-type">Award</span>
+  <div class="timeline-text"><p>Chenhan received the SEAS Dean&rsquo;s Graduate Achievement Award.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2023-05'>2023/05</time>
+  <span class="timeline-type">Activity</span>
+  <div class="timeline-text"><p>Chenhan defended his Ph.D. dissertation. Thanks to the committee members: Prof. Wenyao Xu, Prof. Karthik Dantu, and Prof. Junsong Yuan!</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2023-03'>2023/03</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>Our paper &ldquo;AO-Finger: Hands-free Fine-grained Finger Gesture Recognition via Acoustic-Optic Sensor Fusing&rdquo; at <a href="https://research.snap.com/">Snap Research NYC</a> is accepted by CHI &lsquo;23.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2022-11'>2022/11</time>
+  <span class="timeline-type">Award</span>
+  <div class="timeline-text"><p>Our work “Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function” is selected as the best paper candidate for SenSys'22 (7 out of 208). Thanks to all my collaborators.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2022-11'>2022/11</time>
+  <span class="timeline-type">Award</span>
+  <div class="timeline-text"><p>Our work &ldquo;Poster Abstract: Smartphone-based Blood Perfusion Assessment for Ulcer Care&rdquo; wins the SenSys'22 best poster runner-up. Thanks to all my collaborators.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2022-10'>2022/10</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>Our paper &ldquo;Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Function&rdquo; is accepted by SenSys &lsquo;22.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2022-08'>2022/08</time>
+  <span class="timeline-type">Service</span>
+  <div class="timeline-text"><p>Chenhan served as Shadow Program Committee of SenSys'22.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2022-04'>2022/04</time>
+  <span class="timeline-type">Activity</span>
+  <div class="timeline-text"><p>Chenhan will be joining <a href="https://research.snap.com/">Snap Research NYC</a> in the summer of 2022 as a Research Intern on HCI research.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2021-07'>2021/07</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>Our paper &ldquo;CardiacWave: A mmWave-based Scheme of Non-Contact and High-Definition Heart Activity Computing&rdquo; is accepted by UbiComp &lsquo;21</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2021-02'>2021/02</time>
+  <span class="timeline-type">Activity</span>
+  <div class="timeline-text"><p>Chenhan passed Ph.D. qualifying exam</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2020-09'>2020/09</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>Our paper &ldquo;VocalPrint: exploring a resilient and secure voice authentication via mmWave biometric interrogation&rdquo; is accepted by SenSys &lsquo;20</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2020-06'>2020/06</time>
+  <span class="timeline-type">Award</span>
+  <div class="timeline-text"><p>Our paper &ldquo;Sonicprint: a generally adoptable and secure fingerprint biometrics in smart devices&rdquo; received the Best Paper Award from the 2020 ACM MobiSys.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2019-11'>2019/11</time>
+  <span class="timeline-type">Award</span>
+  <div class="timeline-text"><p>Chenhan received the First Year Achiever Award from CSE@UB</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2019-11'>2019/11</time>
+  <span class="timeline-type">Award</span>
+  <div class="timeline-text"><p>Our research work on mmWave-scannable paper tagging received the Best Paper Award from the 2019 ACM SenSys Conference.</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2019-06'>2019/06</time>
+  <span class="timeline-type">Award</span>
+  <div class="timeline-text"><p>Chenhan received the MobiSys &lsquo;19 travel grant</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2019-03'>2019/03</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>Our paper &ldquo;WaveEar: Exploring a mmWave-based Noise-resistant Speech Sensing for Voice-User Interface&rdquo; is accepted by MobiSys &lsquo;19</p>
+</div>
+</li>
+
+  
+  
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2018-09'>2018/09</time>
+  <span class="timeline-type">Award</span>
+  <div class="timeline-text"><p>Chenhan received the Chair&rsquo;s Fellowship from CSE@UB</p>
+</div>
+</li>
+
+  
+</ol>
+
+    </main>
+    <footer class="site-col">
+  <div class="site-footer">&copy; 2026 Chenhan Xu</div>
 </footer>
 
+  </div>
 </body>
 
 </html>

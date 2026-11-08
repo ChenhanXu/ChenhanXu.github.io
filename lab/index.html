@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   
@@ -15,162 +15,38 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
 <link rel="stylesheet" href="https://chenhanxu.github.io/css/semantic.min.css">
 <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
 <script src="https://chenhanxu.github.io/css/semantic.min.js"></script>
+<link rel="preload" href="https://chenhanxu.github.io/fonts/source-serif-4/source-serif-4-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 
+<link rel="stylesheet" href="https://chenhanxu.github.io/css/site.css">
 
-
-<style>
-  .topnav {
-  background-color: #990000;
-  position: fixed;  
-  top: 0;  
-  width: 100%;  
-  z-index: 10;
-  overflow: hidden;
-  box-shadow: 0px -20px 50px 1px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px -20px 50px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px -20px 50px 1px rgba(0,0,0,0.75);
-}
-
- 
-.topnav a {
-  float: left;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-   
-}
-
- 
-.topnav a:hover {
-  background-color: #ffffff;
-  color: #990000;
-}
-
- 
-.topnav a.active {
-  background-color: #1f3bda;
-  color: white;
-}
-
- 
-.topnav .icon {
-  display: none;
-}
- 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .topnav .icon {
-  display: block;
-  }
-}
-
- 
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-  #Award {
-    color: lime;
-    font-weight: bold;
-  }
-  #Publication {
-    color: green;
-    font-weight: bold;
-  }
-  #Event {
-    color: blue;
-    font-weight: bold;
-  }
-  #Activity {
-    color: indigo;
-    font-weight: bold;
-  }
-  #Grant {
-    color: rgb(204, 0, 0);
-    font-weight: bold;
-  }
-  #Service {
-    color: gray;
-    font-weight: bold;
-  }
-
-  .ui .container {
-    margin-bottom: 20px;
-  }
-</style>
-  <style>
-    body {
-       
-    }
-  </style>
   
-<style>
-    li p {
-        margin-bottom: 0;
-    }
-    li {
-        margin: .5em;
-    }
-</style>
-
   <title>
     Chenhan Xu (许陈汉)
     </title>
 </head>
 
 <body>
-  <div class="topnav" id="myTopnav">
-  <div class="ui centered container">
-  <a href="/">Home</a>
-  
-  <a class="item" href="/news/">
-    News
-  </a>
-  <a class="item" href="/publication/">
-    Publication
-  </a>
-  <a class="item" href="/teaching/">
-    Teaching
-  </a>
-  <a class="item" href="/lab/">
-    SSCS Lab
-  </a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="bars icon"></i>
-  </a>
-</div>
-</div>
-
-<div style="height: 120px">
-
-</div>
+  <nav class="topnav" id="myTopnav">
+  <div class="site-col topnav-inner">
+    <a href="/">Home</a>
+    <a href="/news/">News</a>
+    <a href="/publication/">Publication</a>
+    <a href="/teaching/">Teaching</a>
+    <a href="/lab/" class="active">SSCS Lab</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="Menu">
+      <i class="bars icon"></i>
+    </a>
+  </div>
+</nav>
 
 <script>
 function myFunction() {
-  window.scrollTo(0,0)
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
@@ -179,130 +55,110 @@ function myFunction() {
   }
 }
 </script>
-  
-  
 
-<div class="ui centered container">
-    
-    <h1 id="synergistic-sensing-and-computing-system-lab">Synergistic Sensing and Computing System Lab</h1>
+  <div class="sheet">
+    <main class="site-col">
+      
+<div class="prose">
+  <h1 id="synergistic-sensing-and-computing-system-lab">Synergistic Sensing and Computing System Lab</h1>
 <p>The Synergistic Sensing and Computing System (SSCS) Lab at North Carolina State University delves into advanced research topics situated at the crossroads of sensor hardware/architecture, signal processing, operating systems, algorithms, human factors, and their applicability in human-computer interaction, healthcare, and cybersecurity domains. Our research undertakings encompass a broad spectrum, ranging from the development of hardware/software foundations to the construction of pragmatic computer systems.</p>
-
-
-    <h2>People</h2>
-    <div class="ui four doubling mini cards">
-        
-        
-            
-        
-            
-        
-            
-                <div class="card">
-                    <div class="image">
-                        
-                            <img src="/lab/people/current/rakshita-ranganath/profile.jpeg" width="1243" height="830" alt="">
-                        
-                    </div>
-                    <div class="content">
-                        <div class="header">Rakshita Ranganath</div>
-                        <div class="meta">
-                            <span>PhD Student</span>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="card">
-                    <div class="image">
-                        
-                            <img src="/lab/people/current/yuliang-fu/profile.png" width="1200" height="800" alt="">
-                        
-                    </div>
-                    <div class="content">
-                        <div class="header">Yuliang Fu</div>
-                        <div class="meta">
-                            <span>PhD Student</span>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="card">
-                    <div class="image">
-                        
-                            <img src="/lab/people/current/mingshuo-wang/profile.jpg" width="1924" height="1280" alt="">
-                        
-                    </div>
-                    <div class="content">
-                        <div class="header">Mingshuo Wang</div>
-                        <div class="meta">
-                            <span>PhD Student</span>
-                        </div>
-                    </div>
-                </div>
-            
-        
-            
-        
-            
-                <div class="card">
-                    <div class="image">
-                        
-                            <img src="/lab/people/current/junyi-tang/profile.jpg" width="482" height="323" alt="">
-                        
-                    </div>
-                    <div class="content">
-                        <div class="header">Junyi Tang</div>
-                        <div class="meta">
-                            <span>Undergraduate</span>
-                        </div>
-                    </div>
-                </div>
-            
-        
-    </div>
-    <h2>Alumni</h2>
-    <div class="ui tiny list">
-        
-        
-            
-        
-            
-                <div class="item">
-                    <div class="content">
-                        <div class="header">Raj Mouli Jujjavarapu, Master 2024</div>
-                        
-                        Next stop: AMD
-                    </div>
-                </div>
-            
-        
-            
-        
-            
-        
-            
-                <div class="item">
-                    <div class="content">
-                        <div class="header">Peilin Huang, Visiting Student 2025</div>
-                        
-                        Next stop: Master at National Tsing Hua University
-                    </div>
-                </div>
-            
-        
-    </div>
 
 </div>
 
-
-  
-  
-  
-  <footer>
-  <div class="ui center aligned container">
-    <i class="copyright outline icon"></i>Copyright 2026 Chenhan Xu.
+<section class="section">
+  <div class="section-head">
+    <h2>People</h2>
   </div>
+  <div class="people">
+    
+    
+    
+    
+    
+    
+    
+    <div class="person">
+      
+      <img src="/lab/people/current/rakshita-ranganath/profile.jpeg" width="1243" height="830" alt="" loading="lazy">
+      
+      <div class="person-name">Rakshita Ranganath</div>
+      <div class="person-role">PhD Student</div>
+    </div>
+    
+    <div class="person">
+      
+      <img src="/lab/people/current/yuliang-fu/profile.png" width="1200" height="800" alt="" loading="lazy">
+      
+      <div class="person-name">Yuliang Fu</div>
+      <div class="person-role">PhD Student</div>
+    </div>
+    
+    <div class="person">
+      
+      <img src="/lab/people/current/mingshuo-wang/profile.jpg" width="1924" height="1280" alt="" loading="lazy">
+      
+      <div class="person-name">Mingshuo Wang</div>
+      <div class="person-role">PhD Student</div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="person">
+      
+      <img src="/lab/people/current/junyi-tang/profile.jpg" width="482" height="323" alt="" loading="lazy">
+      
+      <div class="person-name">Junyi Tang</div>
+      <div class="person-role">Undergraduate</div>
+    </div>
+    
+    
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Alumni</h2>
+  </div>
+  <ol class="timeline">
+    
+    
+    
+    
+    
+    <li class="timeline-item alumni-item">
+      <span class="timeline-date">2024</span>
+      <div class="timeline-text">
+        <strong>Raj Mouli Jujjavarapu</strong>, Master
+        <div class="alumni-next">Next stop: AMD</div>
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+    <li class="timeline-item alumni-item">
+      <span class="timeline-date">2025</span>
+      <div class="timeline-text">
+        <strong>Peilin Huang</strong>, Visiting Student
+        <div class="alumni-next">Next stop: Master at National Tsing Hua University</div>
+      </div>
+    </li>
+    
+    
+  </ol>
+</section>
+
+    </main>
+    <footer class="site-col">
+  <div class="site-footer">&copy; 2026 Chenhan Xu</div>
 </footer>
 
+  </div>
 </body>
 
 </html>

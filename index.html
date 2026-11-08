@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   
@@ -15,163 +15,38 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
 <link rel="stylesheet" href="https://chenhanxu.github.io/css/semantic.min.css">
 <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
 <script src="https://chenhanxu.github.io/css/semantic.min.js"></script>
+<link rel="preload" href="https://chenhanxu.github.io/fonts/source-serif-4/source-serif-4-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
 
+<link rel="stylesheet" href="https://chenhanxu.github.io/css/site.css">
 
-
-<style>
-  .topnav {
-  background-color: #990000;
-  position: fixed;  
-  top: 0;  
-  width: 100%;  
-  z-index: 10;
-  overflow: hidden;
-  box-shadow: 0px -20px 50px 1px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px -20px 50px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px -20px 50px 1px rgba(0,0,0,0.75);
-}
-
- 
-.topnav a {
-  float: left;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-   
-}
-
- 
-.topnav a:hover {
-  background-color: #ffffff;
-  color: #990000;
-}
-
- 
-.topnav a.active {
-  background-color: #1f3bda;
-  color: white;
-}
-
- 
-.topnav .icon {
-  display: none;
-}
- 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .topnav .icon {
-  display: block;
-  }
-}
-
- 
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-  #Award {
-    color: lime;
-    font-weight: bold;
-  }
-  #Publication {
-    color: green;
-    font-weight: bold;
-  }
-  #Event {
-    color: blue;
-    font-weight: bold;
-  }
-  #Activity {
-    color: indigo;
-    font-weight: bold;
-  }
-  #Grant {
-    color: rgb(204, 0, 0);
-    font-weight: bold;
-  }
-  #Service {
-    color: gray;
-    font-weight: bold;
-  }
-
-  .ui .container {
-    margin-bottom: 20px;
-  }
-</style>
-  <style>
-    body {
-       
-    }
-  </style>
   
-<style>
-  .list-item p {
-    display: inline;
-  }
-   
-  .ui .list {
-    text-align: justify;
-  }
-</style>
-
   <title>
     Chenhan Xu (许陈汉)
     </title>
 </head>
 
 <body>
-  <div class="topnav" id="myTopnav">
-  <div class="ui centered container">
-  <a href="/">Home</a>
-  
-  <a class="item" href="/news/">
-    News
-  </a>
-  <a class="item" href="/publication/">
-    Publication
-  </a>
-  <a class="item" href="/teaching/">
-    Teaching
-  </a>
-  <a class="item" href="/lab/">
-    SSCS Lab
-  </a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="bars icon"></i>
-  </a>
-</div>
-</div>
-
-<div style="height: 120px">
-
-</div>
+  <nav class="topnav" id="myTopnav">
+  <div class="site-col topnav-inner">
+    <a href="/" class="active">Home</a>
+    <a href="/news/">News</a>
+    <a href="/publication/">Publication</a>
+    <a href="/teaching/">Teaching</a>
+    <a href="/lab/">SSCS Lab</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="Menu">
+      <i class="bars icon"></i>
+    </a>
+  </div>
+</nav>
 
 <script>
 function myFunction() {
-  window.scrollTo(0,0)
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
@@ -180,570 +55,467 @@ function myFunction() {
   }
 }
 </script>
+
+  <div class="sheet">
+    <main class="site-col">
+      
+<header class="profile">
+  <img class="profile-photo" src="images/profile1.jpg" alt="Chenhan Xu">
+  <div class="profile-id">
+    <h1 class="profile-name">Chenhan Xu</h1>
+    <div class="profile-role">
+      <span>Assistant Professor<span class="profile-role-sep">,</span></span>
+      <span>Department of Computer Science</span>
+      <span class="profile-role-inst">North Carolina State University</span>
+    </div>
+  </div>
+  <div class="profile-more">
+    <ul class="profile-contact">
+      <li class="profile-address"><i class="map marker alternate icon"></i><span>1606 Research IV, 909 Capability Drive, Raleigh, NC 27606</span></li>
+      <li><i class="envelope icon"></i><span>chenhanxu (AT) ncsu (DOT) edu</span></li>
+      <li><i class="graduation cap icon"></i><a href="https://scholar.google.com/citations?user=KnwMxZ8AAAAJ&hl=en">Google Scholar</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="bio prose">
+  <p>Dr. Chenhan Xu is an Assistant Professor of <a href="https://www.csc.ncsu.edu/index.php">Department of Computer Science</a> in the <a href="https://www.ncsu.edu/">North Carolina State University</a>.
+His <a href="https://chenhanxu.github.io/lab/">Synergistic Sensing and Computing System Lab</a> explore advanced embedded sensing and computing systems to enable high-impact real-world IoT applications. The research involves pioneering advancements in sensing and computing system paradigm, data analytics, signal processing, algorithm, and hardware innovations for <strong>Internet of Human-Centric Things</strong> by</p>
+<div class="thrust">
+  <p class="thrust-title">Precision Sensing that augments IoT &ldquo;resolution&rdquo;</p>
+  <p class="thrust-summary">Exploring new wireless and wearable sensing technologies to precisely, securely, and robustly interrogate human physiological information.</p>
+  <p class="thrust-refs"><a href="/publication/mobisys_19/paper.pdf">Voice tone</a><span class="thrust-sep">&nbsp;· </span><a href="/publication/sensys_20b/paper.pdf">Voice biometrics</a><span class="thrust-sep">&nbsp;· </span><a href="/publication/ubicomp_21/paper.pdf">Heart activity</a><span class="thrust-sep">&nbsp;· </span><a href="/publication/ndss_22b/paper.pdf">Fingerprint anti-spoofing</a><span class="thrust-sep">&nbsp;· </span><a href="/publication/chi_23/paper.pdf">Finger tracking</a><span class="thrust-sep">&nbsp;· </span>Body inertia (<a href="/publication/ichi_22/paper.pdf">optical</a>, <a href="/publication/bsn_25b/paper.pdf">mmWave</a>)<span class="thrust-sep">&nbsp;· </span><a href="/publication/bsn_25a/paper.pdf">Non-contact fingertip force</a></p>
+</div>
+
+<div class="thrust">
+  <p class="thrust-title">Novel Human-IoT Interface that enables extra &ldquo;bandwidth&rdquo;</p>
+  <p class="thrust-summary">Investigating new interfaces between human and IoT through broad-spectrum wireless modalities of human physiological activities.</p>
+  <p class="thrust-refs">IoT-heart interface (<a href="/publication/sensys_22a/paper.pdf">voice</a>, <a href="/publication/ubicomp_21/paper.pdf">mmWave</a>)<span class="thrust-sep">&nbsp;· </span><a href="/publication/ubicomp_26/paper.pdf">On-skin touch input for smartwatches</a></p>
+</div>
+
+<div class="thrust">
+  <p class="thrust-title">Pervasive and Privacy-preserving mobile health that has extended &ldquo;coverage&rdquo;</p>
+  <p class="thrust-summary">Exploring effortless, accurate, and secure health monitoring and disease prevention through IoT devices and facilities.</p>
+  <p class="thrust-refs">Parkinson’s disease (<a href="/publication/ubicomp_19/paper.pdf">medication adherence</a>, <a href="/publication/mobicom_19/paper.pdf">early detection</a>, <a href="/publication/mobicom_23/paper.pdf">treatment assessment</a>)<span class="thrust-sep">&nbsp;· </span><a href="/publication/bsn_25d/paper.pdf">Multi-lead ECG from wearable PPG</a><span class="thrust-sep">&nbsp;· </span><a href="/publication/humansys_26/paper.pdf">Out-of-clinic gait from video</a><span class="thrust-sep">&nbsp;· </span><a href="/publication/chase_26/paper.pdf">ECG re-identification risk</a></p>
+</div>
+
+
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>News</h2>
+    <a href='/news/'>All news</a>
+  </div>
+  <ol class="timeline">
+    
+    
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2026-11'>2026/11</time>
+  <span class="timeline-type">Service</span>
+  <div class="timeline-text"><p>Glad to continue serving as Registration Chair of <a href="https://conferences.computer.org/chase2027/">CHASE'27</a>. See you in the Research Triangle!</p>
+</div>
+</li>
+
+    
+    
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2026-10'>2026/10</time>
+  <span class="timeline-type">Service</span>
+  <div class="timeline-text"><p>Organized the NC State Workshop on Cyber-Physical and Robotic Systems, which concluded successfully. Thanks to all presenters and attendees!</p>
+</div>
+</li>
+
+    
+    
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2026-06'>2026/06</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>One paper is accepted in IROS 2026.</p>
+</div>
+</li>
+
+    
+    
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2026-06'>2026/06</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>One paper is accepted in UbiComp/IMWUT 2026. Congratulations to Yuliang!</p>
+</div>
+</li>
+
+    
+    
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2026-03'>2026/03</time>
+  <span class="timeline-type">Grant</span>
+  <div class="timeline-text"><p>Received NCDA&amp;CS IAAE Grant as PI. Congratulations and thanks to all collaborators!</p>
+</div>
+</li>
+
+    
+    
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2026-01'>2026/01</time>
+  <span class="timeline-type">Service</span>
+  <div class="timeline-text"><p>Glad to serve as Registration Chair of <a href="https://conferences.computer.org/chase2026/index.html?=">CHASE'26</a>. See you in Pittsburgh!</p>
+</div>
+</li>
+
+    
+    
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2025-11'>2025/11</time>
+  <span class="timeline-type">Publication</span>
+  <div class="timeline-text"><p>Five papers are accepted by IEEE-EMBS International Conference on Body Sensor Networks (BSN'25).</p>
+</div>
+</li>
+
+    
+    
+<li class="timeline-item">
+  <time class="timeline-date" datetime='2025-10'>2025/10</time>
+  <span class="timeline-type">Activity</span>
+  <div class="timeline-text"><p>Chenhan gave a talk about SSCS Lab&rsquo;s work on IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI’25) workshop.</p>
+</div>
+</li>
+
+    
+  </ol>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Selected Publications</h2>
+    <a href='/publication/'>All publications</a>
+  </div>
+  <div class="pub-list">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+<article class="pub-card">
   
+  <div class="pub-teaser">
+    <img src="/publication/ubicomp_26/teaser.png" alt="Teaser figure" loading="lazy">
+  </div>
   
-
-
-<div class="ui container">
-  <div class="ui vertical segment">
-    <div class="ui middle aligned stackable grid container">
-      <div class="row">
-        
-        <div class="fourteen wide centered column">
-          <div class="ui items">
-            <div class="item"><img class="ui medium centered image" src="images/profile1.jpg" alt="Chenhan Xu">
-              <div class="middle aligned content">
-                <div class="header">Chenhan Xu</div>
-                <div class="meta">
-                  <p>Assistant Professor</p>
-                  <p>Department of Computer Science</p>
-                  <p>North Carolina State University</p>
-                </div>
-                <div class="description">
-                  <p><i class="map primary icon"></i> 2268 Engineering Building II, Raleigh, NC 27606</p>
-                  <p><i class="envelope primary icon"></i> chenhanxu (AT) ncsu (DOT) edu</p>
-                  <a class="ui red basic label" href="https://scholar.google.com/citations?user=KnwMxZ8AAAAJ&hl=en"><i class="graduation cap icon"></i>Google Scholar</a>
-                </div>
-                <div class="extra">
-                    <blockquote>「君子不器」    — Confucius (551 BC - 479 BC)</blockquote>
-                    
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div class="pub-body">
+    
+    
+    
+    
+    
+      
+    
+    <div class="pub-title">
+      <a href="/publication/ubicomp_26/paper.pdf"><em>EpiPad</em>: Enabling Multi-Finger and Force-Sensitive Skin Interface for Smartwatches</a>
     </div>
+    <div class="pub-authors"><span><u>Yuliang Fu</u></span>, 
+
+<span><u>Rakshita Ranganath</u></span>, Huining Li, <strong>Chenhan Xu</strong></div>
+    <div class="pub-venue"><em>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</em> (UbiComp/IMWUT'26)</div>
+    
+    
   </div>
+</article>
 
-  <div class="ui vertical segment">
-    <div style="text-align:justify;">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+<article class="pub-card">
+  
+  <div class="pub-teaser">
+    <img src="/publication/bsn_25a/teaser.png" alt="Teaser figure" loading="lazy">
+  </div>
+  
+  <div class="pub-body">
+    
+    
+    
+    
+    
       
-      
-
-
-
-
-
-<div class="ui info yellow message">
-    <div class="header">
-      Openings
+    
+    <div class="pub-title">
+      <a href="/publication/bsn_25a/paper.pdf"><em>TouchWave</em>: Exploring mmWave-based Non-contact Fingertip-force Sensing in Activities of Daily Living</a>
     </div>
-    <p>
+    <div class="pub-authors"><span><u>Yuliang Fu</u></span>, 
+
+<span><u>Zhi Zhang</u></span>, 
+
+<span><u>Rakshita Ranganath</u></span>, Zhizhen Li, Yuchen Liu, Ning Sui, Huining Li, <strong>Chenhan Xu</strong></div>
+    <div class="pub-venue"><em>IEEE-EMBS International Conference on Body Sensor Networks</em> (BSN'25)</div>
+    
+    
+  </div>
+</article>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+<article class="pub-card">
+  
+  <div class="pub-teaser">
+    <img src="/publication/chi_23/teaser.png" alt="Teaser figure" loading="lazy">
+  </div>
+  
+  <div class="pub-body">
+    
+    
+    
+    
+    
       
-I am actively looking for self-motivated Ph.D. students/interns to work on Wireless and Mobile Sensing. Feel free to send me an email with your CV.
-
-    </p>
-</div>
-<p>Dr. Chenhan Xu is an Assistant Professor of <a href="https://www.csc.ncsu.edu/index.php">Department of Computer Science</a> in the <a href="https://www.ncsu.edu/">North Carolina State University</a>.
-His research focuses on the convergence of Internet of Things (IoT), Physiological Science, and Smart Health. Chenhan is the recipient of <strong>Best Student Paper Award at ICHI 2022</strong>, <strong>Best Paper Award at MobiSys 2020</strong>, <strong>Best Paper Award at SenSys 2019</strong>, <strong>Best Paper Award at ICC 2019</strong>, <strong>Best Paper Award at GlobeCom 2016</strong>, and <strong>Best Paper Nominee at ACM SenSys 2022</strong>.</p>
-<p>Chenhan and his <a href="https://chenhanxu.github.io/lab/">Synergistic Sensing and Computing System Lab</a> explore advanced embedded sensing and computing systems to enable high-impact real-world IoT applications. The research involves pioneering advancements in sensing and computing system paradigm, data analytics, signal processing, algorithm, and hardware innovations for <strong>Internet of Human-Centric Things</strong> by</p>
-<ul>
-<li><strong>Precision Sensing that augments IoT &ldquo;resolution&rdquo;</strong>: exploring new wireless and wearable sensing technologies to precisely, securely, and robustly interrogate human physiological information, including noise-immune voice tone 
-
-
-
-
-
-
-
-<a href="/publication/mobisys_19/paper.pdf">[MobiSys'19]</a>
- and resilient voice biometrics 
-
-
-
-
-
-
-
-<a href="/publication/sensys_20b/paper.pdf">[SenSys'20]</a>
-, fine-grained heart activities 
-
-
-
-
-
-
-
-<a href="/publication/ubicomp_21/paper.pdf">[UbiComp'21]</a>
-, anti-spoofing fingerprint 
-
-
-
-
-
-
-
-<a href="/publication/ndss_22b/paper.pdf">[NDSS'22]</a>
- and wearable fine-grained finger tracking 
-
-
-
-
-
-
-
-<a href="/publication/chi_23/paper.pdf">[CHI'23]</a>
-, and authentic body inertia 
-
-
-
-
-
-
-
-<a href="/publication/ichi_22/paper.pdf">[ICHI'22]</a>
-.</li>
-<li><strong>Novel Human-IoT Interface that enables extra &ldquo;bandwidth&rdquo;</strong>: investigating new interfaces between human and IoT through broad-spectrum wireless modalities of human physiological activities (e.g., IoT-heart interface via voice 
-
-
-
-
-
-
-
-<a href="/publication/sensys_22a/paper.pdf">[SenSys'22]</a>
- and mmWave 
-
-
-
-
-
-
-
-<a href="/publication/ubicomp_21/paper.pdf">[UbiComp'21]</a>
-).</li>
-<li><strong>Pervasive and Privacy-preserving mobile health that have extended &ldquo;coverage&rdquo;</strong>: exploring effortless, accurate, and secure health monitoring and disease prevention through IoT devices and facilities, including passive medication adherence management of Parkinson&rsquo;s disease (PD) 
-
-
-
-
-
-
-
-<a href="/publication/ubicomp_19/paper.pdf">[UbiComp'19]</a>
- and privacy-preserving early detection of PD 
-
-
-
-
-
-
-
-<a href="/publication/mobicom_19/paper.pdf">[MobiCom'19]</a>
-.</li>
-</ul>
-
+    
+    <div class="pub-title">
+      <a href="/publication/chi_23/paper.pdf"><em>AO-Finger</em>: Hands-free Fine-grained Finger Gesture Recognition via Acoustic-Optic Sensor Fusing</a>
     </div>
+    <div class="pub-authors"><strong>Chenhan Xu</strong>, Bing Zhou, Gurunandan Krishnan, Shree Nayar</div>
+    <div class="pub-venue"><em>Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems</em> (CHI'23)</div>
+    
+    
   </div>
+</article>
 
-</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
-<div class="ui container">
-  <div class="ui horizontal divider">
-    News
+
+
+
+
+<article class="pub-card">
+  
+  <div class="pub-teaser">
+    <img src="/publication/ichi_22/teaser.png" alt="Teaser figure" loading="lazy">
   </div>
-  <div class="ui center aligned one column container" style="padding-top: 1em;padding-bottom: 1em;">
-    <div class="ui list" style="padding-left: 0; padding-right: 0;">
+  
+  <div class="pub-body">
+    
+    
+    
+    
+    
       
-      <div class="item list-item">
-        
-        <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>One paper is accepted in IROS 2026.</p>
- (2026/06)</span>
-      </div>
-      
-      <div class="item list-item">
-        
-        <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>One paper is accepted in UbiComp/IMWUT 2026. Congratulations to Yuliang!</p>
- (2026/06)</span>
-      </div>
-      
-      <div class="item list-item">
-        
-        <div class="ui horizontal right pointing large label" id="Grant">Grant</div> <span><p>Received NCDA&amp;CS IAAE Grant as PI. Congratulations and thanks to all collaborators!</p>
- (2026/03)</span>
-      </div>
-      
-      <div class="item list-item">
-        
-        <div class="ui horizontal right pointing large label" id="Service">Service</div> <span><p>Glad to serve as Registration Chair of <a href="https://conferences.computer.org/chase2026/index.html?=">CHASE'26</a>. See you in Pittsburgh!</p>
- (2026/01)</span>
-      </div>
-      
-      <div class="item list-item">
-        
-        <div class="ui horizontal right pointing large label" id="Publication">Publication</div> <span><p>Five papers are accepted by IEEE-EMBS International Conference on Body Sensor Networks (BSN'25).</p>
- (2025/11)</span>
-      </div>
-      
-      <div class="item list-item">
-        
-        <div class="ui horizontal right pointing large label" id="Activity">Activity</div> <span><p>Chenhan gave a talk about SSCS Lab&rsquo;s work on IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI’25) workshop.</p>
- (2025/10)</span>
-      </div>
-      
-      <div class="item list-item">
-        
-        <div class="ui horizontal right pointing large label" id="Award">Award</div> <span><p>Our work on RF-based wound sensing instrument is selected as the Best Paper Candidate in International Workshop on Human-Centered Sensing, Modeling, and Intelligent Systems (HumanSys'25). Congrats to the team!</p>
- (2025/05)</span>
-      </div>
-      
-      <div class="item list-item">
-        
-        <div class="ui horizontal right pointing large label" id="Service">Service</div> <span><p>We are organizing the <a href="https://conferences.computer.org/chase2025/workshop_smart_connected.html">Sensing and Computing for Smart and Connected Health workshop</a> in conjunction with IEEE/ACM CHASE 2025. Please consider submitting your work!</p>
- (2024/12)</span>
-      </div>
-      
+    
+    <div class="pub-title">
+      <a href="/publication/ichi_22/paper.pdf"><em>The Visual Accelerometer</em>: A High-fidelity Optic-to-Inertial Transformation Framework for Wearable Health Computing</a>
     </div>
-
-  <div class="ui">
-    <a  href='/news/'>
-      <div class="ui small animated primary button" tabindex="0">
-        <div class="visible content">More News</div>
-        <div class="hidden content">
-          <i class="right arrow icon"></i>
-        </div>
-      </div>
-    </a>
-  </div>
-
-  </div>
-</div>
-
-
-<div class="ui container">
-  <div class="ui horizontal divider">
-    Selected Publications
-  </div>
-  <div class="ui center aligned one column container" style="padding-top: 1em;padding-bottom: 1em;">
-    <div class="ui list" style="padding-left: 0; padding-right: 0;">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <div class="item list-item"><p><strong>Chenhan Xu</strong>, Bing Zhou, Gurunandan Krishnan, Shree Nayar, &ldquo;AO-Finger: Hands-free Fine-grained Finger Gesture Recognition via Acoustic-Optic Sensor Fusing&rdquo;, <em>Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems</em> (<strong>CHI'23</strong>), Hamburg, Germany, Apr. 2023. (
-
-
-<span style="
-    color: blue;
-    ">
-    Acceptace rate: 28.39%, 880 out of 3182
-</span>)
-
-
-
-
-
-<a class="ui red basic medium label" href="/publication/chi_23/paper.pdf">PDF</a>
-</p></div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <div class="item list-item"><p><strong>Chenhan Xu</strong>, 
+    <div class="pub-authors"><strong>Chenhan Xu</strong>, Huining Li, Zhengxiong Li, 
 
 <span>
 
-<span><u>Tianyu Chen</u></span>*</span>, Huining Li, 
+<span><u>Xingyu Chen</u></span>*</span>, Aditya Singh Rathore, Hanbin Zhang, Kun Wang, Wenyao Xu</div>
+    <div class="pub-venue"><em>IEEE International Conference on Health Informatics</em> (ICHI'22)</div>
+    
+    <div class="pub-award">Best Student Paper Award (2 out of 109)</div>
+    
+    
+  </div>
+</article>
 
-<span>
-
-<span><u>Alexander Gherardi</u></span>*</span>, 
-
-<span>
-
-<span><u>Michelle Weng</u></span>*</span>, Zhengxiong Li, Wenyao Xu, &ldquo;Hearing Heartbeat from Voice: Towards Next Generation Voice-User Interfaces with Cardiac Sensing Functions&rdquo;, <em>ACM Conference on Embedded Networked Sensor Systems</em> (<strong>SenSys'22</strong>), Boston, MA, Nov. 2022. (
-
-
-<span style="
-    color: blue;
-    ">
-    Acceptance Rate: 24.8%, 52 out of 209
-</span>, 
-
-
-<span style="
-    color: red;
-    ">
-    Best Paper Award Candidate, 7 out of 209
-</span>)
-
-
-
-
-
-<a class="ui red basic medium label" href="/publication/sensys_22a/paper.pdf">PDF</a>
-</p></div>
-      
-      
-      
-      
-      
-      
-      
-      <div class="item list-item"><p><strong>Chenhan Xu</strong>, Huining Li, Zhengxiong Li, 
-
-<span>
-
-<span><u>Xingyu Chen</u></span>*</span>, Aditya Singh Rathore, Hanbin Zhang, Kun Wang, Wenyao Xu, &ldquo;The Visual Accelerometer: A High-fidelity Optic-to-Inertial Transformation Framework for Wearable Health Computing&rdquo;, <em>IEEE International Conference on Health Informatics</em> (<strong>ICHI'22</strong>), Rochester, MN, June 2022. (
-
-
-<span style="
-    color: red;
-    ">
-    Best Student Paper Award, 2 out of 109
-</span>)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
 
 
-<a class="ui red basic medium label" href="/publication/ichi_22/paper.pdf">PDF</a>
-</p></div>
+<article class="pub-card">
+  
+  <div class="pub-teaser">
+    <img src="/publication/sensys_20b/teaser.png" alt="Teaser figure" loading="lazy">
+  </div>
+  
+  <div class="pub-body">
+    
+    
+    
+    
+    
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <div class="item list-item"><p><strong>Chenhan Xu</strong>, Huining Li, Zhengxiong Li, Hanbin Zhang, Aditya Singh Rathore, Xingyu Chen, Kun Wang, Ming-Chun Huang, Wenyao Xu, &ldquo;CardiacWave: A mmWave-based Scheme of Non-Contact and High-Definition Heart Activity Computing&rdquo;, <em>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</em> (<strong>UbiComp/IMWUT'21</strong>), Volume 5, Issue 3, Sept. 2021, Pages 1 - 26. (
-
-
-<span style="
-    color: blue;
-    ">
-    R1 Initial Acceptance Rate in May: 2.14%, 3 out of 140, overall AR: 25%
-</span>)
-
-
-
-
-
-<a class="ui red basic medium label" href="/publication/ubicomp_21/paper.pdf">PDF</a>
-</p></div>
-      
-      
-      
-      
-      
-      <div class="item list-item"><p>Huining Li, <strong>Chenhan Xu</strong>, Aditya Singh Rathore, Zhengxiong Li, Hanbin Zhang, Chen Song, Kun Wang, Lu Su, Feng Lin, Kui Ren, Wenyao Xu, &ldquo;VocalPrint: Exploring A Resilient and Secure Voice Authentication via mmWave Biometric Interrogation&rdquo;, <em>ACM Conference on Embedded Networked Sensor Systems</em> (<strong>SenSys'20</strong>), Yokohama, Japan, Nov. 2020. (
-
-
-<span style="
-    color: blue;
-    ">
-    Acceptance Rate: 20.6%, 44 out of 213
-</span>)
-
-
-
-
-
-<a class="ui red basic medium label" href="/publication/sensys_20b/paper.pdf">PDF</a>
-</p></div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <div class="item list-item"><p><strong>Chenhan Xu</strong>, Zhengxiong Li, Hanbin Zhang, Aditya Singh Rathore, Huining Li, Chen Song, Kun Wang, Wenyao Xu, &ldquo;WaveEar: Exploring a mmWave-based Noise-resistant Speech Sensing for Voice-User Interface&rdquo;, <em>ACM International Conference on Mobile Systems, Applications, and Services</em> (<strong>MobiSys'19</strong>), Seoul, South Korea, June 2019. (
-
-
-<span style="
-    color: blue;
-    ">
-    Acceptance Rate: 23.2%, 40 out of 172
-</span>)
-
-
-
-
-
-<a class="ui red basic medium label" href="/publication/mobisys_19/paper.pdf">PDF</a>
-</p></div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+    
+    <div class="pub-title">
+      <a href="/publication/sensys_20b/paper.pdf"><em>VocalPrint</em>: Exploring A Resilient and Secure Voice Authentication via mmWave Biometric Interrogation</a>
     </div>
-
-  <div class="ui">
-    <a  href='/publication/'>
-      <div class="ui small animated primary button" tabindex="0">
-        <div class="visible content">All Publications</div>
-        <div class="hidden content">
-          <i class="book open icon"></i>
-        </div>
-      </div>
-    </a>
+    <div class="pub-authors">Huining Li, <strong>Chenhan Xu</strong>, Aditya Singh Rathore, Zhengxiong Li, Hanbin Zhang, Chen Song, Kun Wang, Lu Su, Feng Lin, Kui Ren, Wenyao Xu</div>
+    <div class="pub-venue"><em>ACM Conference on Embedded Networked Sensor Systems</em> (SenSys'20)</div>
+    
+    
   </div>
+</article>
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+<article class="pub-card">
+  
+  <div class="pub-teaser">
+    <img src="/publication/mobisys_19/teaser.png" alt="Teaser figure" loading="lazy">
   </div>
-
-
-</div>
-
-
-
-<div class="ui container">
-  <div class="ui horizontal divider">
-    Professional Activities
-  </div>
-  <div class="ui center aligned stackable grid container" style="padding-top: 1em;padding-bottom: 1em;">
-    <div class="ui list" style="padding-left: 0; padding-right: 0;">
+  
+  <div class="pub-body">
+    
+    
+    
+    
+    
       
-      <h4 class="ui header">Program Committee</h4>
-      <div class="item list-item"><ul>
-<li>ACM Conference on Embedded Networked Sensor Systems (SenSys) [2025]</li>
-<li>International Conference on Computer Communications and Networks (ICCCN) [2024]</li>
-<li>IEEE International Performance Computing and Communications Conference (IPCCC) [2023]</li>
-<li>IEEE-EMBS International Conference on Body Sensor Networks: Sensor and Systems for Digital Health (BSN) [2023, 2024]</li>
-<li>International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP) [2023]</li>
-<li>ACM Conference on Embedded Networked Sensor Systems (SenSys) Shadow PC [2022]</li>
-<li>IEEE International Conference on Communications (ICC) [2018, 2019, 2020]</li>
-</ul>
-</div>
-      
-      <h4 class="ui header">Editorial Board</h4>
-      <div class="item list-item"><ul>
-<li>Elsevier Smart Health Journal</li>
-</ul>
-</div>
-      
-      <h4 class="ui header">Reviewer</h4>
-      <div class="item list-item"><ul>
-<li>ACM CHI conference on Human Factors in Computing Systems (CHI)</li>
-<li>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</li>
-<li>ACM Symposium on User Interface Software and Technology (UIST)</li>
-<li>ACM Transactions on Design Automation of Electronic Systems (TODAES)</li>
-<li>Nature Scientific Data</li>
-<li>ACM Transactions on Sensor Networks (TOSN)</li>
-<li>ACM Transactions on Mobile Computing (TMC)</li>
-<li>IEEE Internet of Things Journal (IOTJ)</li>
-<li>IEEE International Conference on Computer Communications (INFOCOM)</li>
-<li>IEEE/ACM international conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)</li>
-<li>IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)</li>
-<li>IEEE Transactions on Services Computing</li>
-<li>IEEE Transactions on Parallel and Distributed Systems (TPDS)</li>
-<li>IEEE Communications Magazine</li>
-<li>IEEE Network Magazine</li>
-<li>IEEE Transactions on Vehicular Technology (TVT)</li>
-<li>IEEE Transactions on Emerging Topics in Computing</li>
-<li>International Conference on Wireless Communications and Signal Processing</li>
-</ul>
-</div>
-      
+    
+    <div class="pub-title">
+      <a href="/publication/mobisys_19/paper.pdf"><em>WaveEar</em>: Exploring a mmWave-based Noise-resistant Speech Sensing for Voice-User Interface</a>
     </div>
+    <div class="pub-authors"><strong>Chenhan Xu</strong>, Zhengxiong Li, Hanbin Zhang, Aditya Singh Rathore, Huining Li, Chen Song, Kun Wang, Wenyao Xu</div>
+    <div class="pub-venue"><em>ACM International Conference on Mobile Systems, Applications, and Services</em> (MobiSys'19)</div>
+    
+    
   </div>
+</article>
 
-
-  <div class="ui divider"></div>
-
-</div>
-
-
-</div>
-
-
-  
-  
-  
-  <footer>
-  <div class="ui center aligned container">
-    <i class="copyright outline icon"></i>Copyright 2026 Chenhan Xu.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   </div>
+</section>
+
+    </main>
+    <footer class="site-col">
+  <div class="site-footer">&copy; 2026 Chenhan Xu</div>
 </footer>
 
+  </div>
 </body>
 
 </html>

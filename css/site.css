@@ -1,0 +1,733 @@
+/*
+  Site styles, loaded after semantic.min.css.
+
+  Principles:
+  - One column with one left edge. Navbar, page content, and footer all use .site-col.
+  - The column is a white sheet (.sheet) on a grey page; teasers and photos have white
+    backgrounds, so the sheet stays white and only the surroundings are tinted.
+  - Spacing encodes grouping: items inside a group sit 0-8px apart, groups 16-32px,
+    sections 64px. Use the --s* tokens (8 / 16 / 24 / 32 / 64) only.
+  - Running prose is 19px; lists and metadata (news, citations, card details) are 17px.
+  - One typeface everywhere: Source Serif 4 (variable, weights 400-700, self-hosted with
+    its OFL licence in static/fonts/source-serif-4/).
+  - NC State red is the only accent. Metadata (dates, types, venues, statistics) is muted grey.
+*/
+
+/* ---------- Fonts ---------- */
+
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/source-serif-4/source-serif-4-normal-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/source-serif-4/source-serif-4-normal-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/source-serif-4/source-serif-4-italic-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/source-serif-4/source-serif-4-italic-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+:root {
+  --red: #cc0000;      /* Wolfpack Red: links, awards */
+  --red-deep: #990000; /* Reynolds Red: navbar */
+  --ink: rgba(0, 0, 0, 0.87);
+  --muted: #666;
+  --rule: #e4e4e4;
+  --page-bg: #f0f0f0; /* outside the column */
+  --sheet-bg: #fff;   /* the column */
+
+  --font-text: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --fs-xs: 15px;
+  --fs-sm: 17px;
+  --fs-base: 19px;
+  --fs-md: 21px;
+  --fs-lg: 26px;
+  --fs-xl: 34px;
+  --lh: 1.6;
+  --lh-tight: 1.3;
+
+  --s1: 8px;
+  --s2: 16px;
+  --s3: 24px;
+  --s4: 32px;
+  --s5: 64px;
+
+  --col: 760px;   /* about 75 characters of 19px Source Serif 4 */
+  --gutter: 48px; /* sheet padding; text keeps this distance from the sheet edge */
+  --nav-h: 52px;
+}
+
+/* ---------- Base ---------- */
+
+body {
+  background: var(--page-bg);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: var(--fs-base);
+  line-height: var(--lh);
+}
+
+/* Semantic UI sets Lato on headings directly. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-text);
+}
+
+p {
+  margin: 0 0 var(--s2);
+  line-height: var(--lh);
+}
+
+a {
+  color: var(--red);
+}
+
+a:hover {
+  color: var(--red);
+  text-decoration: underline;
+}
+
+.sheet {
+  box-sizing: border-box;
+  max-width: calc(var(--col) + 2 * var(--gutter));
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-top: calc(var(--nav-h) + 48px);
+  background: var(--sheet-bg);
+}
+
+.site-col {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: calc(var(--col) + 2 * var(--gutter));
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* ---------- Navbar ---------- */
+
+.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: var(--red-deep);
+}
+
+.topnav-inner {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 28px;
+  min-height: var(--nav-h);
+}
+
+.topnav a {
+  display: flex;
+  align-items: center;
+  height: var(--nav-h);
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  color: #fff;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  color: #fff;
+  text-decoration: none;
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.topnav a.active {
+  border-bottom-color: #fff;
+}
+
+.topnav a.icon {
+  display: none;
+  margin-left: auto;
+}
+
+.topnav a.icon i.icon {
+  margin: 0;
+}
+
+/* ---------- Page scaffolding ---------- */
+
+.page-title {
+  margin: 0 0 var(--s4);
+  font-size: var(--fs-xl);
+  line-height: var(--lh-tight);
+}
+
+.page-subtitle {
+  margin: calc(-1 * var(--s4) + var(--s1)) 0 var(--s4);
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.page-note {
+  margin: 0 0 var(--s4);
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.page-note p {
+  margin: 0;
+}
+
+.page-note + .section {
+  margin-top: var(--s4);
+}
+
+.section {
+  margin-top: var(--s5);
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s2);
+  margin-bottom: var(--s2);
+  padding-bottom: var(--s1);
+  border-bottom: 1px solid var(--rule);
+}
+
+.section-head h2 {
+  margin: 0;
+  font-size: var(--fs-lg);
+  line-height: var(--lh-tight);
+}
+
+.section-head a {
+  font-size: var(--fs-sm);
+  white-space: nowrap;
+}
+
+.site-footer {
+  margin-top: var(--s5);
+  padding: var(--s2) 0 var(--s4);
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+
+/* ---------- Prose (markdown content) ---------- */
+
+.prose > :first-child {
+  margin-top: 0;
+}
+
+.prose h1 {
+  margin: 0 0 var(--s4);
+  font-size: var(--fs-xl);
+  line-height: var(--lh-tight);
+}
+
+.prose h2 {
+  margin: var(--s5) 0 var(--s2);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-tight);
+}
+
+.prose h3 {
+  margin: var(--s4) 0 var(--s1);
+  font-size: var(--fs-md);
+  line-height: var(--lh-tight);
+}
+
+.prose h4 {
+  margin: var(--s2) 0 var(--s1);
+  font-size: var(--fs-base);
+  line-height: var(--lh-tight);
+}
+
+.prose ul,
+.prose ol {
+  margin: 0 0 var(--s2);
+  padding-left: 1.4em;
+}
+
+.prose li {
+  margin-bottom: var(--s1);
+}
+
+.prose hr {
+  margin: var(--s5) 0 var(--s4);
+  border: 0;
+  border-top: 1px solid var(--rule);
+}
+
+/* ---------- Homepage profile ----------
+   Photo on the left spanning two groups: identity (name, role) and
+   contact (address, email, Scholar). On small screens the photo
+   shrinks beside the identity group and contact moves below. */
+
+.profile {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  grid-template-areas:
+    "photo id"
+    "photo more";
+  grid-template-rows: auto 1fr;
+  column-gap: var(--s4);
+  row-gap: var(--s2);
+}
+
+.profile-photo {
+  grid-area: photo;
+  width: 160px;
+  height: 160px;
+}
+
+.profile-id {
+  grid-area: id;
+}
+
+.profile-more {
+  grid-area: more;
+}
+
+.profile-name {
+  margin: 0 0 4px;
+  font-size: var(--fs-xl);
+  line-height: var(--lh-tight);
+}
+
+.profile-role {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+/* Title and department share a line; institution gets its own.
+   Small screens give each part its own line. */
+.profile-role-inst {
+  display: block;
+}
+
+.profile-contact {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: var(--s3);
+  row-gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--fs-sm);
+}
+
+.profile-contact li {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.profile-contact .profile-address {
+  flex-basis: 100%;
+}
+
+.profile-contact i.icon {
+  flex: none;
+  width: 1.1em;
+  margin: 0;
+  color: var(--muted);
+}
+
+.bio {
+  margin-top: var(--s4);
+}
+
+/* Research thrusts (thrust shortcode): title and summary read as one group,
+   the paper-link line sits just below at list size, thrusts are 24px apart. */
+
+.thrust {
+  margin-top: var(--s3);
+}
+
+.thrust p {
+  margin: 0;
+}
+
+.thrust-title {
+  font-weight: 600;
+}
+
+.thrust .thrust-refs {
+  margin-top: var(--s1);
+  font-size: var(--fs-sm);
+  line-height: 1.5;
+}
+
+/* Keep each keyword on one line; the separator's leading no-break space
+   keeps the dot attached to the keyword before it. */
+.thrust-refs a {
+  white-space: nowrap;
+}
+
+.thrust-sep {
+  color: var(--muted);
+}
+
+/* ---------- News timeline (home and News page) ---------- */
+
+.timeline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 64px 96px 1fr;
+  column-gap: var(--s2);
+  align-items: baseline;
+  padding: var(--s1) 0;
+}
+
+.timeline-date,
+.timeline-type {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.timeline-date {
+  font-variant-numeric: tabular-nums;
+}
+
+.timeline-text {
+  font-size: var(--fs-sm);
+}
+
+.timeline-text p {
+  margin: 0;
+}
+
+/* ---------- Selected publication cards (home) ---------- */
+
+.pub-card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--s4);
+  padding: var(--s3) 0;
+  border-top: 1px solid var(--rule);
+}
+
+.pub-card:first-child {
+  padding-top: var(--s1);
+  border-top: 0;
+}
+
+.pub-card:last-child {
+  padding-bottom: 0;
+}
+
+.pub-teaser {
+  flex: 0 0 200px;
+}
+
+.pub-teaser img {
+  display: block;
+  max-width: 100%;
+  max-height: 150px;
+}
+
+.pub-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-title {
+  margin-bottom: var(--s1);
+  font-size: var(--fs-md);
+  font-weight: 700;
+  line-height: var(--lh-tight);
+}
+
+.pub-title a {
+  color: var(--ink);
+}
+
+.pub-title a:hover {
+  color: var(--red);
+}
+
+.pub-authors,
+.pub-venue,
+.pub-award {
+  font-size: var(--fs-sm);
+  line-height: 1.5;
+}
+
+.pub-venue {
+  color: var(--muted);
+}
+
+.pub-award {
+  margin-top: 4px;
+  color: var(--red);
+  font-weight: 700;
+}
+
+/* ---------- Publication list page ---------- */
+
+.pub-group h2 {
+  margin: 0;
+}
+
+.pub-entries {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pub-entry {
+  display: grid;
+  grid-template-columns: 3.2em 1fr;
+  column-gap: var(--s1);
+  align-items: baseline;
+  margin-bottom: var(--s2);
+  font-size: var(--fs-sm);
+}
+
+.pub-num {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.pub-text p {
+  display: inline;
+  margin: 0;
+}
+
+.pub-text .ui.label {
+  margin-left: 4px;
+  padding: 2px 6px;
+  font-size: 13px;
+  vertical-align: 1px;
+}
+
+/* Citation notes from the colour shortcode. */
+.cite-award {
+  color: var(--red);
+}
+
+.cite-stat {
+  color: var(--muted);
+}
+
+/* ---------- Teaching ---------- */
+
+.course {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  column-gap: var(--s2);
+  align-items: baseline;
+  padding: var(--s3) 0;
+  border-top: 1px solid var(--rule);
+}
+
+.course:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.course-term {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.course-title {
+  margin: 0 0 4px;
+  font-size: var(--fs-md);
+  line-height: var(--lh-tight);
+}
+
+.course-title a {
+  color: var(--ink);
+}
+
+.course-title a:hover {
+  color: var(--red);
+}
+
+.course-code {
+  margin-bottom: var(--s1);
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+.course-summary {
+  font-size: var(--fs-sm);
+}
+
+.course-summary p {
+  margin: 0;
+}
+
+/* ---------- Lab ---------- */
+
+.people {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--s4) var(--s2);
+}
+
+.person img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin-bottom: var(--s1);
+}
+
+.person-name {
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  line-height: var(--lh-tight);
+}
+
+.person-role {
+  color: var(--muted);
+  font-size: var(--fs-xs);
+}
+
+.alumni-item {
+  grid-template-columns: 64px 1fr;
+}
+
+.alumni-next {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 600px) {
+  :root {
+    --gutter: 20px;
+  }
+
+  .sheet {
+    padding-top: calc(var(--nav-h) + var(--s4));
+  }
+
+  .topnav a:not(:first-child):not(.icon) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    display: flex;
+  }
+
+  .topnav.responsive .topnav-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .topnav.responsive a:not(.icon) {
+    display: flex;
+    height: 44px;
+  }
+
+  .topnav a.icon:hover {
+    border-bottom-color: transparent;
+  }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    top: 0;
+    right: var(--gutter);
+  }
+
+  .profile {
+    grid-template-columns: 88px 1fr;
+    grid-template-areas:
+      "photo id"
+      "more more";
+    grid-template-rows: auto auto;
+    column-gap: var(--s2);
+    align-items: center;
+  }
+
+  .profile-photo {
+    width: 88px;
+    height: 88px;
+  }
+
+  .profile-role {
+    font-size: var(--fs-xs);
+  }
+
+  .profile-role > span {
+    display: block;
+  }
+
+  .profile-role-sep {
+    display: none;
+  }
+
+  .timeline-item {
+    grid-template-columns: auto 1fr;
+    row-gap: 2px;
+  }
+
+  .timeline-text {
+    grid-column: 1 / -1;
+  }
+
+  .alumni-item {
+    grid-template-columns: 48px 1fr;
+  }
+
+  .alumni-item .timeline-text {
+    grid-column: auto;
+  }
+
+  .pub-card {
+    flex-direction: column;
+    gap: var(--s2);
+  }
+
+  .pub-teaser {
+    flex-basis: auto;
+  }
+
+  .pub-teaser img {
+    max-height: 180px;
+  }
+
+  .course {
+    grid-template-columns: 1fr;
+    row-gap: 4px;
+  }
+
+  .people {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
